@@ -15,7 +15,7 @@
 */
 
 // Package converter provides image converter
-package containerdreconverter
+package reconverter
 
 import (
 	"context"

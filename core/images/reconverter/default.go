@@ -14,7 +14,7 @@
    limitations under the License.
 */
 
-package containerdreconverter
+package reconverter
 
 import (
 	"bytes"
