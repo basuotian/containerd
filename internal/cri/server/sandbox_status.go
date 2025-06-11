@@ -24,8 +24,8 @@ import (
 
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	sandboxstore "github.com/containerd/containerd/v2/internal/cri/store/sandbox"
-	"github.com/containerd/containerd/v2/internal/cri/types"
+	sandboxstore "github.com/basuotian/containerd/v2/internal/cri/store/sandbox"
+	"github.com/basuotian/containerd/v2/internal/cri/types"
 	"github.com/containerd/errdefs"
 )
 

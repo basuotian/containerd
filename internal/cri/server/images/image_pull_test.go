@@ -27,10 +27,10 @@ import (
 
 	"github.com/containerd/platforms"
 
-	"github.com/containerd/containerd/v2/core/transfer"
-	"github.com/containerd/containerd/v2/internal/cri/annotations"
-	criconfig "github.com/containerd/containerd/v2/internal/cri/config"
-	"github.com/containerd/containerd/v2/internal/cri/labels"
+	"github.com/basuotian/containerd/v2/core/transfer"
+	"github.com/basuotian/containerd/v2/internal/cri/annotations"
+	criconfig "github.com/basuotian/containerd/v2/internal/cri/config"
+	"github.com/basuotian/containerd/v2/internal/cri/labels"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

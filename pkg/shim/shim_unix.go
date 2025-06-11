@@ -27,7 +27,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/containerd/containerd/v2/pkg/sys/reaper"
+	"github.com/basuotian/containerd/v2/pkg/sys/reaper"
 	"github.com/containerd/fifo"
 	"github.com/containerd/log"
 	"golang.org/x/sys/unix"

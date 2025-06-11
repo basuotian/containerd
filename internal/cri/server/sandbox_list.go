@@ -22,7 +22,7 @@ import (
 
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	sandboxstore "github.com/containerd/containerd/v2/internal/cri/store/sandbox"
+	sandboxstore "github.com/basuotian/containerd/v2/internal/cri/store/sandbox"
 )
 
 // ListPodSandbox returns a list of Sandbox.

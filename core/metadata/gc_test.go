@@ -28,8 +28,8 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/containerd/containerd/v2/core/metadata/boltutil"
-	"github.com/containerd/containerd/v2/pkg/gc"
+	"github.com/basuotian/containerd/v2/core/metadata/boltutil"
+	"github.com/basuotian/containerd/v2/pkg/gc"
 	"github.com/opencontainers/go-digest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

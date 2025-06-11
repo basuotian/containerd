@@ -29,11 +29,11 @@ import (
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"google.golang.org/grpc"
 
-	"github.com/containerd/containerd/v2/core/diff"
-	"github.com/containerd/containerd/v2/core/mount"
-	"github.com/containerd/containerd/v2/pkg/oci"
-	"github.com/containerd/containerd/v2/plugins"
-	"github.com/containerd/containerd/v2/plugins/services"
+	"github.com/basuotian/containerd/v2/core/diff"
+	"github.com/basuotian/containerd/v2/core/mount"
+	"github.com/basuotian/containerd/v2/pkg/oci"
+	"github.com/basuotian/containerd/v2/plugins"
+	"github.com/basuotian/containerd/v2/plugins/services"
 )
 
 type config struct {

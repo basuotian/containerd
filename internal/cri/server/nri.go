@@ -17,10 +17,10 @@
 package server
 
 import (
-	criconfig "github.com/containerd/containerd/v2/internal/cri/config"
-	crilabels "github.com/containerd/containerd/v2/internal/cri/labels"
-	cstore "github.com/containerd/containerd/v2/internal/cri/store/container"
-	sstore "github.com/containerd/containerd/v2/internal/cri/store/sandbox"
+	criconfig "github.com/basuotian/containerd/v2/internal/cri/config"
+	crilabels "github.com/basuotian/containerd/v2/internal/cri/labels"
+	cstore "github.com/basuotian/containerd/v2/internal/cri/store/container"
+	sstore "github.com/basuotian/containerd/v2/internal/cri/store/sandbox"
 )
 
 type criImplementation struct {

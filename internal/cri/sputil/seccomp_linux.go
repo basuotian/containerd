@@ -22,8 +22,8 @@ import (
 
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	"github.com/containerd/containerd/v2/contrib/seccomp"
-	"github.com/containerd/containerd/v2/pkg/oci"
+	"github.com/basuotian/containerd/v2/contrib/seccomp"
+	"github.com/basuotian/containerd/v2/pkg/oci"
 )
 
 func GenerateSeccompSecurityProfile(profilePath string, unsetProfilePath string) (*runtime.SecurityProfile, error) {

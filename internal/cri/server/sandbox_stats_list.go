@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"sync"
 
-	sandboxstore "github.com/containerd/containerd/v2/internal/cri/store/sandbox"
+	sandboxstore "github.com/basuotian/containerd/v2/internal/cri/store/sandbox"
 	"github.com/containerd/errdefs"
 	"github.com/containerd/log"
 	"github.com/containerd/ttrpc"

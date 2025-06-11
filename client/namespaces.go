@@ -23,8 +23,8 @@ import (
 	api "github.com/containerd/containerd/api/services/namespaces/v1"
 	"github.com/containerd/errdefs/pkg/errgrpc"
 
-	"github.com/containerd/containerd/v2/pkg/namespaces"
-	"github.com/containerd/containerd/v2/pkg/protobuf/types"
+	"github.com/basuotian/containerd/v2/pkg/namespaces"
+	"github.com/basuotian/containerd/v2/pkg/protobuf/types"
 )
 
 // NewNamespaceStoreFromClient returns a new namespace store

@@ -26,8 +26,8 @@ import (
 	"github.com/moby/sys/userns"
 	"golang.org/x/sys/unix"
 
-	"github.com/containerd/containerd/v2/core/mount"
-	"github.com/containerd/containerd/v2/pkg/archive"
+	"github.com/basuotian/containerd/v2/core/mount"
+	"github.com/basuotian/containerd/v2/pkg/archive"
 	"github.com/containerd/errdefs"
 )
 

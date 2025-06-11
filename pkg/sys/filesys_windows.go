@@ -23,7 +23,7 @@ import (
 
 	"golang.org/x/sys/windows"
 
-	"github.com/containerd/containerd/v2/internal/lazyregexp"
+	"github.com/basuotian/containerd/v2/internal/lazyregexp"
 )
 
 // SddlAdministratorsLocalSystem is local administrators plus NT AUTHORITY\System.

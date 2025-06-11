@@ -23,9 +23,9 @@ import (
 	"github.com/opencontainers/go-digest"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 
-	"github.com/containerd/containerd/v2/core/content"
-	"github.com/containerd/containerd/v2/pkg/archive/compression"
-	"github.com/containerd/containerd/v2/pkg/labels"
+	"github.com/basuotian/containerd/v2/core/content"
+	"github.com/basuotian/containerd/v2/pkg/archive/compression"
+	"github.com/basuotian/containerd/v2/pkg/labels"
 	"github.com/containerd/log"
 )
 

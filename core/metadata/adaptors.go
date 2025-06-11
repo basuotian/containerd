@@ -19,13 +19,13 @@ package metadata
 import (
 	"strings"
 
-	"github.com/containerd/containerd/v2/core/containers"
-	"github.com/containerd/containerd/v2/core/content"
-	"github.com/containerd/containerd/v2/core/images"
-	"github.com/containerd/containerd/v2/core/leases"
-	"github.com/containerd/containerd/v2/core/sandbox"
-	"github.com/containerd/containerd/v2/core/snapshots"
-	"github.com/containerd/containerd/v2/pkg/filters"
+	"github.com/basuotian/containerd/v2/core/containers"
+	"github.com/basuotian/containerd/v2/core/content"
+	"github.com/basuotian/containerd/v2/core/images"
+	"github.com/basuotian/containerd/v2/core/leases"
+	"github.com/basuotian/containerd/v2/core/sandbox"
+	"github.com/basuotian/containerd/v2/core/snapshots"
+	"github.com/basuotian/containerd/v2/pkg/filters"
 )
 
 func adaptImage(o interface{}) filters.Adaptor {

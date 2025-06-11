@@ -23,9 +23,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/containerd/containerd/v2/core/diff"
-	"github.com/containerd/containerd/v2/core/mount"
-	"github.com/containerd/containerd/v2/core/snapshots"
+	"github.com/basuotian/containerd/v2/core/diff"
+	"github.com/basuotian/containerd/v2/core/mount"
+	"github.com/basuotian/containerd/v2/core/snapshots"
 	"github.com/containerd/errdefs"
 	"github.com/containerd/log"
 	"github.com/opencontainers/go-digest"

@@ -38,9 +38,9 @@ import (
 	"github.com/containerd/log"
 	"github.com/mdlayher/vsock"
 
-	"github.com/containerd/containerd/v2/defaults"
-	"github.com/containerd/containerd/v2/pkg/namespaces"
-	"github.com/containerd/containerd/v2/pkg/sys"
+	"github.com/basuotian/containerd/v2/defaults"
+	"github.com/basuotian/containerd/v2/pkg/namespaces"
+	"github.com/basuotian/containerd/v2/pkg/sys"
 )
 
 const (

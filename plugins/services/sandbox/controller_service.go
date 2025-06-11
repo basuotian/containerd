@@ -32,10 +32,10 @@ import (
 	"github.com/containerd/plugin"
 	"github.com/containerd/plugin/registry"
 
-	"github.com/containerd/containerd/v2/core/events"
-	"github.com/containerd/containerd/v2/core/sandbox"
-	"github.com/containerd/containerd/v2/pkg/protobuf"
-	"github.com/containerd/containerd/v2/plugins"
+	"github.com/basuotian/containerd/v2/core/events"
+	"github.com/basuotian/containerd/v2/core/sandbox"
+	"github.com/basuotian/containerd/v2/pkg/protobuf"
+	"github.com/basuotian/containerd/v2/plugins"
 )
 
 func init() {

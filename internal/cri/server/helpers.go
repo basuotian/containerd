@@ -31,11 +31,11 @@ import (
 	runtimespec "github.com/opencontainers/runtime-spec/specs-go"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	containerd "github.com/containerd/containerd/v2/client"
-	"github.com/containerd/containerd/v2/core/containers"
-	criconfig "github.com/containerd/containerd/v2/internal/cri/config"
-	containerstore "github.com/containerd/containerd/v2/internal/cri/store/container"
-	imagestore "github.com/containerd/containerd/v2/internal/cri/store/image"
+	containerd "github.com/basuotian/containerd/v2/client"
+	"github.com/basuotian/containerd/v2/core/containers"
+	criconfig "github.com/basuotian/containerd/v2/internal/cri/config"
+	containerstore "github.com/basuotian/containerd/v2/internal/cri/store/container"
+	imagestore "github.com/basuotian/containerd/v2/internal/cri/store/image"
 	"github.com/containerd/errdefs"
 	"github.com/containerd/log"
 )

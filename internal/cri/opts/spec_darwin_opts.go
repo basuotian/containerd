@@ -26,9 +26,9 @@ import (
 	runtimespec "github.com/opencontainers/runtime-spec/specs-go"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	"github.com/containerd/containerd/v2/core/containers"
-	"github.com/containerd/containerd/v2/pkg/oci"
-	osinterface "github.com/containerd/containerd/v2/pkg/os"
+	"github.com/basuotian/containerd/v2/core/containers"
+	"github.com/basuotian/containerd/v2/pkg/oci"
+	osinterface "github.com/basuotian/containerd/v2/pkg/os"
 )
 
 // WithDarwinMounts adds mounts from CRI's container config + extra mounts.

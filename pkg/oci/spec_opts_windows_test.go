@@ -21,8 +21,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/containerd/containerd/v2/core/containers"
-	"github.com/containerd/containerd/v2/pkg/namespaces"
+	"github.com/basuotian/containerd/v2/core/containers"
+	"github.com/basuotian/containerd/v2/pkg/namespaces"
 
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/opencontainers/runtime-spec/specs-go"

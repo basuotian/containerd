@@ -1,4 +1,4 @@
-module github.com/containerd/containerd/v2
+module github.com/basuotian/containerd/v2
 
 go 1.24.3
 
@@ -89,10 +89,12 @@ require (
 )
 
 require (
+	github.com/AdamKorcz/go-118-fuzz-build v0.0.0-20231105174938-2b5cbb29f3e2 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cenkalti/backoff/v4 v4.3.0 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/cilium/ebpf v0.16.0 // indirect
+	github.com/containerd/containerd/v2 v2.0.4 // indirect
 	github.com/containers/ocicrypt v1.2.1 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.5 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect

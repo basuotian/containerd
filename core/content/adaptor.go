@@ -19,7 +19,7 @@ package content
 import (
 	"strings"
 
-	"github.com/containerd/containerd/v2/pkg/filters"
+	"github.com/basuotian/containerd/v2/pkg/filters"
 )
 
 // AdaptInfo returns `filters.Adaptor` that handles `content.Info`.

@@ -30,11 +30,11 @@ import (
 	"github.com/containerd/log"
 	bolt "go.etcd.io/bbolt"
 
-	"github.com/containerd/containerd/v2/core/content"
-	"github.com/containerd/containerd/v2/core/events"
-	"github.com/containerd/containerd/v2/core/snapshots"
-	"github.com/containerd/containerd/v2/pkg/gc"
-	"github.com/containerd/containerd/v2/pkg/namespaces"
+	"github.com/basuotian/containerd/v2/core/content"
+	"github.com/basuotian/containerd/v2/core/events"
+	"github.com/basuotian/containerd/v2/core/snapshots"
+	"github.com/basuotian/containerd/v2/pkg/gc"
+	"github.com/basuotian/containerd/v2/pkg/namespaces"
 )
 
 const (

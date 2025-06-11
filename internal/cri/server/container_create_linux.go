@@ -24,11 +24,11 @@ import (
 	imagespec "github.com/opencontainers/image-spec/specs-go/v1"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	"github.com/containerd/containerd/v2/core/snapshots"
-	"github.com/containerd/containerd/v2/pkg/oci"
+	"github.com/basuotian/containerd/v2/core/snapshots"
+	"github.com/basuotian/containerd/v2/pkg/oci"
 
-	customopts "github.com/containerd/containerd/v2/internal/cri/opts"
-	"github.com/containerd/containerd/v2/internal/cri/sputil"
+	customopts "github.com/basuotian/containerd/v2/internal/cri/opts"
+	"github.com/basuotian/containerd/v2/internal/cri/sputil"
 )
 
 func (c *criService) containerSpecOpts(config *runtime.ContainerConfig, imageConfig *imagespec.ImageConfig) ([]oci.SpecOpts, error) {

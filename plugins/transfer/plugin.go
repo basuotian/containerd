@@ -25,20 +25,20 @@ import (
 	"github.com/containerd/plugin"
 	"github.com/containerd/plugin/registry"
 
-	"github.com/containerd/containerd/v2/core/diff"
-	"github.com/containerd/containerd/v2/core/leases"
-	"github.com/containerd/containerd/v2/core/metadata"
-	"github.com/containerd/containerd/v2/core/transfer/local"
-	"github.com/containerd/containerd/v2/core/unpack"
-	"github.com/containerd/containerd/v2/defaults"
-	"github.com/containerd/containerd/v2/internal/kmutex"
-	"github.com/containerd/containerd/v2/pkg/imageverifier"
-	"github.com/containerd/containerd/v2/plugins"
+	"github.com/basuotian/containerd/v2/core/diff"
+	"github.com/basuotian/containerd/v2/core/leases"
+	"github.com/basuotian/containerd/v2/core/metadata"
+	"github.com/basuotian/containerd/v2/core/transfer/local"
+	"github.com/basuotian/containerd/v2/core/unpack"
+	"github.com/basuotian/containerd/v2/defaults"
+	"github.com/basuotian/containerd/v2/internal/kmutex"
+	"github.com/basuotian/containerd/v2/pkg/imageverifier"
+	"github.com/basuotian/containerd/v2/plugins"
 
 	// Load packages with type registrations
-	_ "github.com/containerd/containerd/v2/core/transfer/archive"
-	_ "github.com/containerd/containerd/v2/core/transfer/image"
-	_ "github.com/containerd/containerd/v2/core/transfer/registry"
+	_ "github.com/basuotian/containerd/v2/core/transfer/archive"
+	_ "github.com/basuotian/containerd/v2/core/transfer/image"
+	_ "github.com/basuotian/containerd/v2/core/transfer/registry"
 )
 
 // Register local transfer service plugin

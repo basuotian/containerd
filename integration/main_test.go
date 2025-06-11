@@ -42,16 +42,16 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	containerd "github.com/containerd/containerd/v2/client"
-	"github.com/containerd/containerd/v2/core/containers"
-	cri "github.com/containerd/containerd/v2/integration/cri-api/pkg/apis"
-	_ "github.com/containerd/containerd/v2/integration/images" // Keep this around to parse `imageListFile` command line var
-	"github.com/containerd/containerd/v2/integration/remote"
-	dialer "github.com/containerd/containerd/v2/integration/remote/util"
-	criconfig "github.com/containerd/containerd/v2/internal/cri/config"
-	"github.com/containerd/containerd/v2/internal/cri/constants"
-	"github.com/containerd/containerd/v2/internal/cri/types"
-	"github.com/containerd/containerd/v2/internal/cri/util"
+	containerd "github.com/basuotian/containerd/v2/client"
+	"github.com/basuotian/containerd/v2/core/containers"
+	cri "github.com/basuotian/containerd/v2/integration/cri-api/pkg/apis"
+	_ "github.com/basuotian/containerd/v2/integration/images" // Keep this around to parse `imageListFile` command line var
+	"github.com/basuotian/containerd/v2/integration/remote"
+	dialer "github.com/basuotian/containerd/v2/integration/remote/util"
+	criconfig "github.com/basuotian/containerd/v2/internal/cri/config"
+	"github.com/basuotian/containerd/v2/internal/cri/constants"
+	"github.com/basuotian/containerd/v2/internal/cri/types"
+	"github.com/basuotian/containerd/v2/internal/cri/util"
 )
 
 const (

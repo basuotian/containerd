@@ -23,8 +23,8 @@ import (
 	"strconv"
 	"strings"
 
-	imagestore "github.com/containerd/containerd/v2/internal/cri/store/image"
-	"github.com/containerd/containerd/v2/internal/cri/util"
+	imagestore "github.com/basuotian/containerd/v2/internal/cri/store/image"
+	"github.com/basuotian/containerd/v2/internal/cri/util"
 	"github.com/containerd/errdefs"
 	"github.com/containerd/log"
 

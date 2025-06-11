@@ -19,10 +19,10 @@ package opts
 import (
 	"context"
 
+	"github.com/basuotian/containerd/v2/pkg/namespaces"
 	"github.com/containerd/cgroups/v3"
 	cgroup1 "github.com/containerd/cgroups/v3/cgroup1"
 	cgroup2 "github.com/containerd/cgroups/v3/cgroup2"
-	"github.com/containerd/containerd/v2/pkg/namespaces"
 )
 
 // WithNamespaceCgroupDeletion removes the cgroup directory that was created for the namespace

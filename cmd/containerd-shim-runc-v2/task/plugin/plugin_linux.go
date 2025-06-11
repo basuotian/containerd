@@ -17,10 +17,10 @@
 package plugin
 
 import (
-	"github.com/containerd/containerd/v2/cmd/containerd-shim-runc-v2/task"
-	"github.com/containerd/containerd/v2/pkg/shim"
-	"github.com/containerd/containerd/v2/pkg/shutdown"
-	"github.com/containerd/containerd/v2/plugins"
+	"github.com/basuotian/containerd/v2/cmd/containerd-shim-runc-v2/task"
+	"github.com/basuotian/containerd/v2/pkg/shim"
+	"github.com/basuotian/containerd/v2/pkg/shutdown"
+	"github.com/basuotian/containerd/v2/plugins"
 	"github.com/containerd/plugin"
 	"github.com/containerd/plugin/registry"
 )

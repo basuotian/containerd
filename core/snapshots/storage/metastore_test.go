@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/containerd/containerd/v2/core/snapshots"
+	"github.com/basuotian/containerd/v2/core/snapshots"
 	"github.com/containerd/errdefs"
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/assert"

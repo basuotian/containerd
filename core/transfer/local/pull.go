@@ -25,14 +25,14 @@ import (
 	"github.com/containerd/platforms"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 
-	"github.com/containerd/containerd/v2/core/content"
-	"github.com/containerd/containerd/v2/core/images"
-	"github.com/containerd/containerd/v2/core/remotes"
-	"github.com/containerd/containerd/v2/core/remotes/docker"
-	"github.com/containerd/containerd/v2/core/transfer"
-	"github.com/containerd/containerd/v2/core/unpack"
-	"github.com/containerd/containerd/v2/defaults"
-	snpkg "github.com/containerd/containerd/v2/pkg/snapshotters"
+	"github.com/basuotian/containerd/v2/core/content"
+	"github.com/basuotian/containerd/v2/core/images"
+	"github.com/basuotian/containerd/v2/core/remotes"
+	"github.com/basuotian/containerd/v2/core/remotes/docker"
+	"github.com/basuotian/containerd/v2/core/transfer"
+	"github.com/basuotian/containerd/v2/core/unpack"
+	"github.com/basuotian/containerd/v2/defaults"
+	snpkg "github.com/basuotian/containerd/v2/pkg/snapshotters"
 )
 
 func (ts *localTransferService) pull(ctx context.Context, ir transfer.ImageFetcher, is transfer.ImageStorer, tops *transfer.Config) error {

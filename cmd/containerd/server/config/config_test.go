@@ -30,7 +30,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/containerd/containerd/v2/version"
+	"github.com/basuotian/containerd/v2/version"
 	"github.com/containerd/log/logtest"
 )
 

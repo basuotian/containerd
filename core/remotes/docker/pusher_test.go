@@ -34,9 +34,9 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/containerd/containerd/v2/core/content"
-	"github.com/containerd/containerd/v2/core/remotes"
-	"github.com/containerd/containerd/v2/pkg/reference"
+	"github.com/basuotian/containerd/v2/core/content"
+	"github.com/basuotian/containerd/v2/core/remotes"
+	"github.com/basuotian/containerd/v2/pkg/reference"
 	"github.com/containerd/errdefs"
 	"github.com/containerd/log/logtest"
 	"github.com/opencontainers/go-digest"

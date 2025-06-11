@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	crilabels "github.com/containerd/containerd/v2/internal/cri/labels"
+	crilabels "github.com/basuotian/containerd/v2/internal/cri/labels"
 	"github.com/stretchr/testify/assert"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 )

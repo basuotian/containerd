@@ -23,8 +23,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/containerd/containerd/v2/defaults"
-	"github.com/containerd/containerd/v2/pkg/namespaces"
+	"github.com/basuotian/containerd/v2/defaults"
+	"github.com/basuotian/containerd/v2/pkg/namespaces"
 	"github.com/containerd/log/logtest"
 )
 

@@ -23,8 +23,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/containerd/containerd/v2/internal/randutil"
-	kernel "github.com/containerd/containerd/v2/pkg/kernelversion"
+	"github.com/basuotian/containerd/v2/internal/randutil"
+	kernel "github.com/basuotian/containerd/v2/pkg/kernelversion"
 	"golang.org/x/sys/unix"
 )
 

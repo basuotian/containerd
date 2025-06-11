@@ -22,7 +22,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/containerd/containerd/v2/core/streaming"
+	"github.com/basuotian/containerd/v2/core/streaming"
 	"github.com/containerd/typeurl/v2"
 )
 

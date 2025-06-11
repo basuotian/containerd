@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/containerd/containerd/v2/internal/tomlext"
-	"github.com/containerd/containerd/v2/pkg/gc"
+	"github.com/basuotian/containerd/v2/internal/tomlext"
+	"github.com/basuotian/containerd/v2/pkg/gc"
 	"github.com/stretchr/testify/assert"
 )
 

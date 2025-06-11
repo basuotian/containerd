@@ -17,8 +17,8 @@
 package info
 
 import (
+	"github.com/basuotian/containerd/v2/cmd/ctr/commands"
 	api "github.com/containerd/containerd/api/services/introspection/v1"
-	"github.com/containerd/containerd/v2/cmd/ctr/commands"
 	"github.com/urfave/cli/v2"
 )
 

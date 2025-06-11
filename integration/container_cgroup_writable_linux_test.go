@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/basuotian/containerd/v2/integration/images"
+	"github.com/basuotian/containerd/v2/integration/remote"
 	"github.com/containerd/cgroups/v3"
-	"github.com/containerd/containerd/v2/integration/images"
-	"github.com/containerd/containerd/v2/integration/remote"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"

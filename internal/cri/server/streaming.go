@@ -25,9 +25,9 @@ import (
 	"k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/client-go/tools/remotecommand"
 
-	executil "github.com/containerd/containerd/v2/internal/cri/executil"
-	streaming "github.com/containerd/containerd/v2/internal/cri/streamingserver"
-	ctrdutil "github.com/containerd/containerd/v2/internal/cri/util"
+	executil "github.com/basuotian/containerd/v2/internal/cri/executil"
+	streaming "github.com/basuotian/containerd/v2/internal/cri/streamingserver"
+	ctrdutil "github.com/basuotian/containerd/v2/internal/cri/util"
 )
 
 type streamRuntime struct {

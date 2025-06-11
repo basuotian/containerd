@@ -17,9 +17,9 @@
 package proxy
 
 import (
+	"github.com/basuotian/containerd/v2/core/snapshots"
+	"github.com/basuotian/containerd/v2/pkg/protobuf"
 	snapshotsapi "github.com/containerd/containerd/api/services/snapshots/v1"
-	"github.com/containerd/containerd/v2/core/snapshots"
-	"github.com/containerd/containerd/v2/pkg/protobuf"
 )
 
 // KindToProto converts from [Kind] to the protobuf definition [snapshots.Kind].

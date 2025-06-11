@@ -24,9 +24,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	"github.com/containerd/containerd/v2/contrib/apparmor"
-	"github.com/containerd/containerd/v2/internal/cri/util"
-	"github.com/containerd/containerd/v2/pkg/oci"
+	"github.com/basuotian/containerd/v2/contrib/apparmor"
+	"github.com/basuotian/containerd/v2/internal/cri/util"
+	"github.com/basuotian/containerd/v2/pkg/oci"
 )
 
 func TestGenerateApparmorSpecOpts(t *testing.T) {

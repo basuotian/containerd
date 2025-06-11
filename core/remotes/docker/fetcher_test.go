@@ -39,7 +39,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/sync/semaphore"
 
-	"github.com/containerd/containerd/v2/core/transfer"
+	"github.com/basuotian/containerd/v2/core/transfer"
 )
 
 func TestFetcherOpen(t *testing.T) {

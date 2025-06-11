@@ -19,9 +19,9 @@ package diff
 import (
 	"context"
 
+	"github.com/basuotian/containerd/v2/plugins"
+	"github.com/basuotian/containerd/v2/plugins/services"
 	diffapi "github.com/containerd/containerd/api/services/diff/v1"
-	"github.com/containerd/containerd/v2/plugins"
-	"github.com/containerd/containerd/v2/plugins/services"
 	"github.com/containerd/plugin"
 	"github.com/containerd/plugin/registry"
 	"google.golang.org/grpc"

@@ -36,15 +36,15 @@ import (
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/containerd/containerd/v2/core/content"
-	"github.com/containerd/containerd/v2/core/diff"
-	"github.com/containerd/containerd/v2/core/images"
-	"github.com/containerd/containerd/v2/core/mount"
-	"github.com/containerd/containerd/v2/core/snapshots"
-	"github.com/containerd/containerd/v2/internal/cleanup"
-	"github.com/containerd/containerd/v2/internal/kmutex"
-	"github.com/containerd/containerd/v2/pkg/labels"
-	"github.com/containerd/containerd/v2/pkg/tracing"
+	"github.com/basuotian/containerd/v2/core/content"
+	"github.com/basuotian/containerd/v2/core/diff"
+	"github.com/basuotian/containerd/v2/core/images"
+	"github.com/basuotian/containerd/v2/core/mount"
+	"github.com/basuotian/containerd/v2/core/snapshots"
+	"github.com/basuotian/containerd/v2/internal/cleanup"
+	"github.com/basuotian/containerd/v2/internal/kmutex"
+	"github.com/basuotian/containerd/v2/pkg/labels"
+	"github.com/basuotian/containerd/v2/pkg/tracing"
 )
 
 const (

@@ -22,10 +22,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/containerd/containerd/v2/core/mount"
-	"github.com/containerd/containerd/v2/pkg/identifiers"
-	"github.com/containerd/containerd/v2/pkg/namespaces"
-	"github.com/containerd/containerd/v2/pkg/oci"
+	"github.com/basuotian/containerd/v2/core/mount"
+	"github.com/basuotian/containerd/v2/pkg/identifiers"
+	"github.com/basuotian/containerd/v2/pkg/namespaces"
+	"github.com/basuotian/containerd/v2/pkg/oci"
 	"github.com/containerd/typeurl/v2"
 	"github.com/opencontainers/runtime-spec/specs-go"
 )

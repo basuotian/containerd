@@ -19,8 +19,8 @@ package images
 import (
 	"os"
 
-	"github.com/containerd/containerd/v2/cmd/ctr/commands"
-	"github.com/containerd/containerd/v2/pkg/display"
+	"github.com/basuotian/containerd/v2/cmd/ctr/commands"
+	"github.com/basuotian/containerd/v2/pkg/display"
 	"github.com/urfave/cli/v2"
 )
 

@@ -23,9 +23,9 @@ import (
 	"strconv"
 	"syscall"
 
-	containerd "github.com/containerd/containerd/v2/client"
-	"github.com/containerd/containerd/v2/core/runtime/restart"
-	"github.com/containerd/containerd/v2/pkg/cio"
+	containerd "github.com/basuotian/containerd/v2/client"
+	"github.com/basuotian/containerd/v2/core/runtime/restart"
+	"github.com/basuotian/containerd/v2/pkg/cio"
 )
 
 type stopChange struct {

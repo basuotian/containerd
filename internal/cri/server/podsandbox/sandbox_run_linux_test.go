@@ -33,13 +33,13 @@ import (
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 	v1 "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	"github.com/containerd/containerd/v2/internal/cri/annotations"
-	criconfig "github.com/containerd/containerd/v2/internal/cri/config"
-	"github.com/containerd/containerd/v2/internal/cri/opts"
-	"github.com/containerd/containerd/v2/pkg/netns"
-	ostesting "github.com/containerd/containerd/v2/pkg/os/testing"
-	"github.com/containerd/containerd/v2/pkg/sys"
-	"github.com/containerd/containerd/v2/pkg/testutil"
+	"github.com/basuotian/containerd/v2/internal/cri/annotations"
+	criconfig "github.com/basuotian/containerd/v2/internal/cri/config"
+	"github.com/basuotian/containerd/v2/internal/cri/opts"
+	"github.com/basuotian/containerd/v2/pkg/netns"
+	ostesting "github.com/basuotian/containerd/v2/pkg/os/testing"
+	"github.com/basuotian/containerd/v2/pkg/sys"
+	"github.com/basuotian/containerd/v2/pkg/testutil"
 )
 
 func getRunPodSandboxTestData(criCfg criconfig.Config) (*runtime.PodSandboxConfig, *imagespec.ImageConfig, func(*testing.T, string, *runtimespec.Spec)) {

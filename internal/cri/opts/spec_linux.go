@@ -33,9 +33,9 @@ import (
 
 	"github.com/containerd/log"
 
-	"github.com/containerd/containerd/v2/core/containers"
-	cdispec "github.com/containerd/containerd/v2/pkg/cdi"
-	"github.com/containerd/containerd/v2/pkg/oci"
+	"github.com/basuotian/containerd/v2/core/containers"
+	cdispec "github.com/basuotian/containerd/v2/pkg/cdi"
+	"github.com/basuotian/containerd/v2/pkg/oci"
 )
 
 // Linux dependent OCI spec opts.

@@ -19,7 +19,7 @@ package util
 import (
 	"strings"
 
-	"github.com/containerd/containerd/v2/internal/cri/setutils"
+	"github.com/basuotian/containerd/v2/internal/cri/setutils"
 )
 
 // InStringSlice checks whether a string is inside a string slice.

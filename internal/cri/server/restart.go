@@ -23,22 +23,22 @@ import (
 	"path/filepath"
 	"time"
 
-	containerd "github.com/containerd/containerd/v2/client"
-	criconfig "github.com/containerd/containerd/v2/internal/cri/config"
-	crilabels "github.com/containerd/containerd/v2/internal/cri/labels"
-	"github.com/containerd/containerd/v2/internal/cri/server/podsandbox"
-	containerdio "github.com/containerd/containerd/v2/pkg/cio"
-	"github.com/containerd/containerd/v2/pkg/netns"
+	containerd "github.com/basuotian/containerd/v2/client"
+	criconfig "github.com/basuotian/containerd/v2/internal/cri/config"
+	crilabels "github.com/basuotian/containerd/v2/internal/cri/labels"
+	"github.com/basuotian/containerd/v2/internal/cri/server/podsandbox"
+	containerdio "github.com/basuotian/containerd/v2/pkg/cio"
+	"github.com/basuotian/containerd/v2/pkg/netns"
 	"github.com/containerd/errdefs"
 	"github.com/containerd/log"
 	"github.com/containerd/typeurl/v2"
 	"golang.org/x/sync/errgroup"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	cio "github.com/containerd/containerd/v2/internal/cri/io"
-	containerstore "github.com/containerd/containerd/v2/internal/cri/store/container"
-	sandboxstore "github.com/containerd/containerd/v2/internal/cri/store/sandbox"
-	ctrdutil "github.com/containerd/containerd/v2/internal/cri/util"
+	cio "github.com/basuotian/containerd/v2/internal/cri/io"
+	containerstore "github.com/basuotian/containerd/v2/internal/cri/store/container"
+	sandboxstore "github.com/basuotian/containerd/v2/internal/cri/store/sandbox"
+	ctrdutil "github.com/basuotian/containerd/v2/internal/cri/util"
 )
 
 // NOTE: The recovery logic has following assumption: when the cri plugin is down:

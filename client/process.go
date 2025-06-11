@@ -27,9 +27,9 @@ import (
 	"github.com/containerd/errdefs"
 	"github.com/containerd/errdefs/pkg/errgrpc"
 
-	"github.com/containerd/containerd/v2/pkg/cio"
-	"github.com/containerd/containerd/v2/pkg/protobuf"
-	"github.com/containerd/containerd/v2/pkg/tracing"
+	"github.com/basuotian/containerd/v2/pkg/cio"
+	"github.com/basuotian/containerd/v2/pkg/protobuf"
+	"github.com/basuotian/containerd/v2/pkg/tracing"
 )
 
 // Process represents a system process

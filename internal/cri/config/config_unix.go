@@ -19,7 +19,7 @@
 package config
 
 import (
-	"github.com/containerd/containerd/v2/defaults"
+	"github.com/basuotian/containerd/v2/defaults"
 	"github.com/pelletier/go-toml/v2"
 )
 

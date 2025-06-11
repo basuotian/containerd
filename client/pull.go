@@ -24,12 +24,12 @@ import (
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"golang.org/x/sync/semaphore"
 
-	"github.com/containerd/containerd/v2/core/images"
-	"github.com/containerd/containerd/v2/core/remotes"
-	"github.com/containerd/containerd/v2/core/remotes/docker"
-	"github.com/containerd/containerd/v2/core/transfer"
-	"github.com/containerd/containerd/v2/core/unpack"
-	"github.com/containerd/containerd/v2/pkg/tracing"
+	"github.com/basuotian/containerd/v2/core/images"
+	"github.com/basuotian/containerd/v2/core/remotes"
+	"github.com/basuotian/containerd/v2/core/remotes/docker"
+	"github.com/basuotian/containerd/v2/core/transfer"
+	"github.com/basuotian/containerd/v2/core/unpack"
+	"github.com/basuotian/containerd/v2/pkg/tracing"
 	"github.com/containerd/errdefs"
 	"github.com/containerd/platforms"
 )

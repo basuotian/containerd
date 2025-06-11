@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/containerd/containerd/v2/pkg/identifiers"
+	"github.com/basuotian/containerd/v2/pkg/identifiers"
 	"github.com/containerd/errdefs"
 )
 

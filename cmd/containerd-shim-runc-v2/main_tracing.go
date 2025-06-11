@@ -19,6 +19,6 @@
 package main
 
 import (
-	_ "github.com/containerd/containerd/v2/internal/pprof"
-	_ "github.com/containerd/containerd/v2/pkg/tracing/plugin"
+	_ "github.com/basuotian/containerd/v2/internal/pprof"
+	_ "github.com/basuotian/containerd/v2/pkg/tracing/plugin"
 )

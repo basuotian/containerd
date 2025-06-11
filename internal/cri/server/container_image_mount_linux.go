@@ -23,8 +23,8 @@ import (
 	"os"
 	"sync"
 
-	"github.com/containerd/containerd/v2/core/mount"
-	kernel "github.com/containerd/containerd/v2/pkg/kernelversion"
+	"github.com/basuotian/containerd/v2/core/mount"
+	kernel "github.com/basuotian/containerd/v2/pkg/kernelversion"
 )
 
 var (

@@ -22,9 +22,9 @@ import (
 	"os"
 	"path/filepath"
 
-	containerd "github.com/containerd/containerd/v2/client"
-	"github.com/containerd/containerd/v2/core/leases"
-	"github.com/containerd/containerd/v2/core/mount"
+	containerd "github.com/basuotian/containerd/v2/client"
+	"github.com/basuotian/containerd/v2/core/leases"
+	"github.com/basuotian/containerd/v2/core/mount"
 	"github.com/containerd/errdefs"
 	"github.com/containerd/log"
 	"github.com/containerd/platforms"

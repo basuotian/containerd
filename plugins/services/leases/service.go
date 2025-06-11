@@ -25,10 +25,10 @@ import (
 	"github.com/containerd/plugin/registry"
 	"google.golang.org/grpc"
 
-	"github.com/containerd/containerd/v2/core/leases"
-	"github.com/containerd/containerd/v2/pkg/protobuf"
-	ptypes "github.com/containerd/containerd/v2/pkg/protobuf/types"
-	"github.com/containerd/containerd/v2/plugins"
+	"github.com/basuotian/containerd/v2/core/leases"
+	"github.com/basuotian/containerd/v2/pkg/protobuf"
+	ptypes "github.com/basuotian/containerd/v2/pkg/protobuf/types"
+	"github.com/basuotian/containerd/v2/plugins"
 )
 
 var empty = &ptypes.Empty{}

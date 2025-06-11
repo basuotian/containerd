@@ -35,11 +35,11 @@ import (
 	v1 "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/opencontainers/runtime-spec/specs-go"
 
-	"github.com/containerd/containerd/v2/core/containers"
-	"github.com/containerd/containerd/v2/core/content"
-	"github.com/containerd/containerd/v2/core/images"
-	"github.com/containerd/containerd/v2/core/mount"
-	"github.com/containerd/containerd/v2/pkg/namespaces"
+	"github.com/basuotian/containerd/v2/core/containers"
+	"github.com/basuotian/containerd/v2/core/content"
+	"github.com/basuotian/containerd/v2/core/images"
+	"github.com/basuotian/containerd/v2/core/mount"
+	"github.com/basuotian/containerd/v2/pkg/namespaces"
 )
 
 // SpecOpts sets spec specific information to a newly generated OCI spec

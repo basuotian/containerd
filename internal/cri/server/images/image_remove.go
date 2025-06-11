@@ -20,8 +20,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/containerd/containerd/v2/core/images"
-	"github.com/containerd/containerd/v2/pkg/tracing"
+	"github.com/basuotian/containerd/v2/core/images"
+	"github.com/basuotian/containerd/v2/pkg/tracing"
 	"github.com/containerd/errdefs"
 
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"

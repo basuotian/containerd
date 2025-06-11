@@ -23,8 +23,8 @@ import (
 	"sync"
 	"time"
 
-	internalapi "github.com/containerd/containerd/v2/integration/cri-api/pkg/apis"
-	"github.com/containerd/containerd/v2/internal/cri/util"
+	internalapi "github.com/basuotian/containerd/v2/integration/cri-api/pkg/apis"
+	"github.com/basuotian/containerd/v2/internal/cri/util"
 	"github.com/containerd/log"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 )

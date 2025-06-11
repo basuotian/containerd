@@ -21,9 +21,9 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/containerd/containerd/v2/core/snapshots"
-	"github.com/containerd/containerd/v2/core/snapshots/testsuite"
-	"github.com/containerd/containerd/v2/pkg/testutil"
+	"github.com/basuotian/containerd/v2/core/snapshots"
+	"github.com/basuotian/containerd/v2/core/snapshots/testsuite"
+	"github.com/basuotian/containerd/v2/pkg/testutil"
 )
 
 func newSnapshotter(ctx context.Context, root string) (snapshots.Snapshotter, func() error, error) {

@@ -19,7 +19,7 @@
 package os
 
 import (
-	"github.com/containerd/containerd/v2/core/mount"
+	"github.com/basuotian/containerd/v2/core/mount"
 	"github.com/containerd/errdefs"
 )
 

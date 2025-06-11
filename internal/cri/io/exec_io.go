@@ -22,8 +22,8 @@ import (
 
 	"github.com/containerd/log"
 
-	"github.com/containerd/containerd/v2/pkg/cio"
-	cioutil "github.com/containerd/containerd/v2/pkg/ioutil"
+	"github.com/basuotian/containerd/v2/pkg/cio"
+	cioutil "github.com/basuotian/containerd/v2/pkg/ioutil"
 )
 
 // ExecIO holds the exec io.

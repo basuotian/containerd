@@ -17,9 +17,9 @@
 package tasks
 
 import (
+	"github.com/basuotian/containerd/v2/cmd/ctr/commands"
+	"github.com/basuotian/containerd/v2/pkg/cio"
 	"github.com/containerd/console"
-	"github.com/containerd/containerd/v2/cmd/ctr/commands"
-	"github.com/containerd/containerd/v2/pkg/cio"
 	"github.com/containerd/log"
 	"github.com/urfave/cli/v2"
 )

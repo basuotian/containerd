@@ -21,7 +21,7 @@ package server
 import (
 	"context"
 
-	containerd "github.com/containerd/containerd/v2/client"
+	containerd "github.com/basuotian/containerd/v2/client"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 )
 

@@ -26,10 +26,10 @@ import (
 	"github.com/containerd/log"
 	"github.com/containerd/typeurl/v2"
 
+	"github.com/basuotian/containerd/v2/core/events"
+	"github.com/basuotian/containerd/v2/internal/cri/clock"
+	"github.com/basuotian/containerd/v2/internal/cri/constants"
 	eventtypes "github.com/containerd/containerd/api/events"
-	"github.com/containerd/containerd/v2/core/events"
-	"github.com/containerd/containerd/v2/internal/cri/clock"
-	"github.com/containerd/containerd/v2/internal/cri/constants"
 )
 
 const (

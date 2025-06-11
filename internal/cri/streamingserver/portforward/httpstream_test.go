@@ -37,7 +37,7 @@ import (
 	"testing"
 	"time"
 
-	api "github.com/containerd/containerd/v2/internal/cri/streamingserver/v1"
+	api "github.com/basuotian/containerd/v2/internal/cri/streamingserver/v1"
 	"k8s.io/apimachinery/pkg/util/httpstream"
 )
 

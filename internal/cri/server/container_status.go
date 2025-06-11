@@ -21,8 +21,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	containerstore "github.com/containerd/containerd/v2/internal/cri/store/container"
-	"github.com/containerd/containerd/v2/internal/cri/util"
+	containerstore "github.com/basuotian/containerd/v2/internal/cri/store/container"
+	"github.com/basuotian/containerd/v2/internal/cri/util"
 	"github.com/containerd/errdefs"
 	"github.com/containerd/log"
 

@@ -23,11 +23,11 @@ import (
 	"github.com/containerd/errdefs/pkg/errgrpc"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/containerd/containerd/v2/core/images"
-	"github.com/containerd/containerd/v2/pkg/epoch"
-	"github.com/containerd/containerd/v2/pkg/oci"
-	"github.com/containerd/containerd/v2/pkg/protobuf"
-	ptypes "github.com/containerd/containerd/v2/pkg/protobuf/types"
+	"github.com/basuotian/containerd/v2/core/images"
+	"github.com/basuotian/containerd/v2/pkg/epoch"
+	"github.com/basuotian/containerd/v2/pkg/oci"
+	"github.com/basuotian/containerd/v2/pkg/protobuf"
+	ptypes "github.com/basuotian/containerd/v2/pkg/protobuf/types"
 )
 
 type remoteImages struct {

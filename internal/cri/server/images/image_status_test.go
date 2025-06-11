@@ -25,7 +25,7 @@ import (
 	"github.com/stretchr/testify/require"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	imagestore "github.com/containerd/containerd/v2/internal/cri/store/image"
+	imagestore "github.com/basuotian/containerd/v2/internal/cri/store/image"
 )
 
 func TestImageStatus(t *testing.T) {

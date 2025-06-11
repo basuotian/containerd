@@ -27,13 +27,13 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/containerd/containerd/v2/cmd/containerd/server"
-	srvconfig "github.com/containerd/containerd/v2/cmd/containerd/server/config"
-	_ "github.com/containerd/containerd/v2/core/metrics" // import containerd build info
-	"github.com/containerd/containerd/v2/core/mount"
-	"github.com/containerd/containerd/v2/defaults"
-	"github.com/containerd/containerd/v2/pkg/sys"
-	"github.com/containerd/containerd/v2/version"
+	"github.com/basuotian/containerd/v2/cmd/containerd/server"
+	srvconfig "github.com/basuotian/containerd/v2/cmd/containerd/server/config"
+	_ "github.com/basuotian/containerd/v2/core/metrics" // import containerd build info
+	"github.com/basuotian/containerd/v2/core/mount"
+	"github.com/basuotian/containerd/v2/defaults"
+	"github.com/basuotian/containerd/v2/pkg/sys"
+	"github.com/basuotian/containerd/v2/version"
 	"github.com/containerd/errdefs"
 	"github.com/containerd/log"
 	"github.com/urfave/cli/v2"

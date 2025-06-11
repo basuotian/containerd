@@ -22,11 +22,11 @@ import (
 	"net/url"
 	"os"
 
+	containerd "github.com/basuotian/containerd/v2/client"
+	"github.com/basuotian/containerd/v2/cmd/ctr/commands"
+	"github.com/basuotian/containerd/v2/pkg/cio"
+	"github.com/basuotian/containerd/v2/pkg/oci"
 	"github.com/containerd/console"
-	containerd "github.com/containerd/containerd/v2/client"
-	"github.com/containerd/containerd/v2/cmd/ctr/commands"
-	"github.com/containerd/containerd/v2/pkg/cio"
-	"github.com/containerd/containerd/v2/pkg/oci"
 	"github.com/containerd/log"
 	"github.com/urfave/cli/v2"
 )

@@ -21,7 +21,7 @@ package podsandbox
 import (
 	"testing"
 
-	criconfig "github.com/containerd/containerd/v2/internal/cri/config"
+	criconfig "github.com/basuotian/containerd/v2/internal/cri/config"
 	imagespec "github.com/opencontainers/image-spec/specs-go/v1"
 	runtimespec "github.com/opencontainers/runtime-spec/specs-go"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"

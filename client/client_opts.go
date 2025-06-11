@@ -19,9 +19,9 @@ package client
 import (
 	"time"
 
-	"github.com/containerd/containerd/v2/core/images"
-	"github.com/containerd/containerd/v2/core/remotes"
-	"github.com/containerd/containerd/v2/core/snapshots"
+	"github.com/basuotian/containerd/v2/core/images"
+	"github.com/basuotian/containerd/v2/core/remotes"
+	"github.com/basuotian/containerd/v2/core/snapshots"
 	"github.com/containerd/platforms"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"golang.org/x/sync/semaphore"

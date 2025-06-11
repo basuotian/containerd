@@ -43,10 +43,10 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	internalapi "github.com/containerd/containerd/v2/integration/cri-api/pkg/apis"
-	"github.com/containerd/containerd/v2/integration/remote/logreduction"
-	"github.com/containerd/containerd/v2/integration/remote/util"
-	executil "github.com/containerd/containerd/v2/internal/cri/executil"
+	internalapi "github.com/basuotian/containerd/v2/integration/cri-api/pkg/apis"
+	"github.com/basuotian/containerd/v2/integration/remote/logreduction"
+	"github.com/basuotian/containerd/v2/integration/remote/util"
+	executil "github.com/basuotian/containerd/v2/internal/cri/executil"
 	"github.com/containerd/log"
 )
 

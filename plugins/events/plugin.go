@@ -17,8 +17,8 @@
 package events
 
 import (
-	"github.com/containerd/containerd/v2/core/events/exchange"
-	"github.com/containerd/containerd/v2/plugins"
+	"github.com/basuotian/containerd/v2/core/events/exchange"
+	"github.com/basuotian/containerd/v2/plugins"
 	"github.com/containerd/plugin"
 	"github.com/containerd/plugin/registry"
 )

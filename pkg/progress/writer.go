@@ -23,8 +23,8 @@ import (
 	"os"
 	"strings"
 
+	"github.com/basuotian/containerd/v2/internal/lazyregexp"
 	"github.com/containerd/console"
-	"github.com/containerd/containerd/v2/internal/lazyregexp"
 )
 
 var (

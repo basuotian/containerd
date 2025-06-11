@@ -20,7 +20,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/containerd/containerd/v2/defaults"
+	"github.com/basuotian/containerd/v2/defaults"
 )
 
 func defaultNetworkPluginBinDirs() []string {

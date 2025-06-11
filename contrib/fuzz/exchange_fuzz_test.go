@@ -21,10 +21,10 @@ import (
 	"testing"
 
 	fuzz "github.com/AdaLogics/go-fuzz-headers"
+	"github.com/basuotian/containerd/v2/core/events"
+	"github.com/basuotian/containerd/v2/core/events/exchange"
+	"github.com/basuotian/containerd/v2/pkg/namespaces"
 	eventstypes "github.com/containerd/containerd/api/events"
-	"github.com/containerd/containerd/v2/core/events"
-	"github.com/containerd/containerd/v2/core/events/exchange"
-	"github.com/containerd/containerd/v2/pkg/namespaces"
 )
 
 func FuzzExchange(f *testing.F) {

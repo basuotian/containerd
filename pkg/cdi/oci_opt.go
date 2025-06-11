@@ -23,8 +23,8 @@ import (
 	"github.com/containerd/log"
 	"tags.cncf.io/container-device-interface/pkg/cdi"
 
-	"github.com/containerd/containerd/v2/core/containers"
-	"github.com/containerd/containerd/v2/pkg/oci"
+	"github.com/basuotian/containerd/v2/core/containers"
+	"github.com/basuotian/containerd/v2/pkg/oci"
 )
 
 // WithCDIDevices injects the requested CDI devices into the OCI specification.

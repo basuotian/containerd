@@ -23,10 +23,10 @@ import (
 	"github.com/containerd/containerd/api/types"
 	"github.com/containerd/errdefs/pkg/errgrpc"
 
-	"github.com/containerd/containerd/v2/core/events"
-	"github.com/containerd/containerd/v2/core/events/exchange"
-	"github.com/containerd/containerd/v2/pkg/protobuf"
-	ptypes "github.com/containerd/containerd/v2/pkg/protobuf/types"
+	"github.com/basuotian/containerd/v2/core/events"
+	"github.com/basuotian/containerd/v2/core/events/exchange"
+	"github.com/basuotian/containerd/v2/pkg/protobuf"
+	ptypes "github.com/basuotian/containerd/v2/pkg/protobuf/types"
 )
 
 type ttrpcService struct {

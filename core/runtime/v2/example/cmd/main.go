@@ -19,8 +19,8 @@ package main
 import (
 	"context"
 
-	"github.com/containerd/containerd/v2/core/runtime/v2/example"
-	"github.com/containerd/containerd/v2/pkg/shim"
+	"github.com/basuotian/containerd/v2/core/runtime/v2/example"
+	"github.com/basuotian/containerd/v2/pkg/shim"
 )
 
 func main() {

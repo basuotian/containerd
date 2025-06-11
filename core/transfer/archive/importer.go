@@ -23,12 +23,12 @@ import (
 	"github.com/containerd/typeurl/v2"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 
+	"github.com/basuotian/containerd/v2/core/content"
+	"github.com/basuotian/containerd/v2/core/images/archive"
+	"github.com/basuotian/containerd/v2/core/streaming"
+	tstreaming "github.com/basuotian/containerd/v2/core/transfer/streaming"
+	"github.com/basuotian/containerd/v2/pkg/archive/compression"
 	transferapi "github.com/containerd/containerd/api/types/transfer"
-	"github.com/containerd/containerd/v2/core/content"
-	"github.com/containerd/containerd/v2/core/images/archive"
-	"github.com/containerd/containerd/v2/core/streaming"
-	tstreaming "github.com/containerd/containerd/v2/core/transfer/streaming"
-	"github.com/containerd/containerd/v2/pkg/archive/compression"
 	"github.com/containerd/log"
 )
 

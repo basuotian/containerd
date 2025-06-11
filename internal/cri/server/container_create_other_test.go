@@ -26,7 +26,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	"github.com/containerd/containerd/v2/internal/cri/annotations"
+	"github.com/basuotian/containerd/v2/internal/cri/annotations"
 )
 
 // checkMount is defined by all tests but not used here

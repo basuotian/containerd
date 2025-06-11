@@ -32,10 +32,10 @@ import (
 	"google.golang.org/grpc/backoff"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/containerd/containerd/v2/pkg/dialer"
-	"github.com/containerd/containerd/v2/pkg/namespaces"
-	"github.com/containerd/containerd/v2/pkg/protobuf/proto"
-	"github.com/containerd/containerd/v2/pkg/protobuf/types"
+	"github.com/basuotian/containerd/v2/pkg/dialer"
+	"github.com/basuotian/containerd/v2/pkg/namespaces"
+	"github.com/basuotian/containerd/v2/pkg/protobuf/proto"
+	"github.com/basuotian/containerd/v2/pkg/protobuf/types"
 )
 
 var publishCommand = &cli.Command{

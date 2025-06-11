@@ -22,8 +22,8 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/containerd/containerd/v2/cmd/ctr/commands"
-	"github.com/containerd/containerd/v2/core/transfer/image"
+	"github.com/basuotian/containerd/v2/cmd/ctr/commands"
+	"github.com/basuotian/containerd/v2/core/transfer/image"
 	"github.com/containerd/errdefs"
 	"github.com/distribution/reference"
 )

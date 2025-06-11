@@ -19,10 +19,10 @@ package client
 import (
 	"context"
 
-	"github.com/containerd/containerd/v2/core/streaming"
-	streamproxy "github.com/containerd/containerd/v2/core/streaming/proxy"
-	"github.com/containerd/containerd/v2/core/transfer"
-	"github.com/containerd/containerd/v2/core/transfer/proxy"
+	"github.com/basuotian/containerd/v2/core/streaming"
+	streamproxy "github.com/basuotian/containerd/v2/core/streaming/proxy"
+	"github.com/basuotian/containerd/v2/core/transfer"
+	"github.com/basuotian/containerd/v2/core/transfer/proxy"
 )
 
 func (c *Client) Transfer(ctx context.Context, src interface{}, dest interface{}, opts ...transfer.Opt) error {

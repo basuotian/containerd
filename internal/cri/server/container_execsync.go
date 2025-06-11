@@ -24,19 +24,19 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/containerd/containerd/v2/pkg/oci"
-	"github.com/containerd/containerd/v2/pkg/tracing"
+	"github.com/basuotian/containerd/v2/pkg/oci"
+	"github.com/basuotian/containerd/v2/pkg/tracing"
 	"github.com/containerd/errdefs"
 	"github.com/containerd/log"
 	"k8s.io/client-go/tools/remotecommand"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	containerd "github.com/containerd/containerd/v2/client"
-	"github.com/containerd/containerd/v2/internal/cri/config"
-	cio "github.com/containerd/containerd/v2/internal/cri/io"
-	"github.com/containerd/containerd/v2/internal/cri/util"
-	containerdio "github.com/containerd/containerd/v2/pkg/cio"
-	cioutil "github.com/containerd/containerd/v2/pkg/ioutil"
+	containerd "github.com/basuotian/containerd/v2/client"
+	"github.com/basuotian/containerd/v2/internal/cri/config"
+	cio "github.com/basuotian/containerd/v2/internal/cri/io"
+	"github.com/basuotian/containerd/v2/internal/cri/util"
+	containerdio "github.com/basuotian/containerd/v2/pkg/cio"
+	cioutil "github.com/basuotian/containerd/v2/pkg/ioutil"
 )
 
 type cappedWriter struct {

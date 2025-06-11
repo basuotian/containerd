@@ -27,12 +27,12 @@ import (
 
 	"github.com/containerd/errdefs"
 
-	"github.com/containerd/containerd/v2/core/content"
-	"github.com/containerd/containerd/v2/core/images"
-	"github.com/containerd/containerd/v2/core/leases"
-	"github.com/containerd/containerd/v2/core/transfer"
-	"github.com/containerd/containerd/v2/core/unpack"
-	"github.com/containerd/containerd/v2/pkg/imageverifier"
+	"github.com/basuotian/containerd/v2/core/content"
+	"github.com/basuotian/containerd/v2/core/images"
+	"github.com/basuotian/containerd/v2/core/leases"
+	"github.com/basuotian/containerd/v2/core/transfer"
+	"github.com/basuotian/containerd/v2/core/unpack"
+	"github.com/basuotian/containerd/v2/pkg/imageverifier"
 )
 
 type localTransferService struct {

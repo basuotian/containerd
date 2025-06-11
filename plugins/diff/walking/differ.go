@@ -30,13 +30,13 @@ import (
 	digest "github.com/opencontainers/go-digest"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 
-	"github.com/containerd/containerd/v2/core/content"
-	"github.com/containerd/containerd/v2/core/diff"
-	"github.com/containerd/containerd/v2/core/mount"
-	"github.com/containerd/containerd/v2/pkg/archive"
-	"github.com/containerd/containerd/v2/pkg/archive/compression"
-	"github.com/containerd/containerd/v2/pkg/epoch"
-	"github.com/containerd/containerd/v2/pkg/labels"
+	"github.com/basuotian/containerd/v2/core/content"
+	"github.com/basuotian/containerd/v2/core/diff"
+	"github.com/basuotian/containerd/v2/core/mount"
+	"github.com/basuotian/containerd/v2/pkg/archive"
+	"github.com/basuotian/containerd/v2/pkg/archive/compression"
+	"github.com/basuotian/containerd/v2/pkg/epoch"
+	"github.com/basuotian/containerd/v2/pkg/labels"
 )
 
 type walkingDiff struct {

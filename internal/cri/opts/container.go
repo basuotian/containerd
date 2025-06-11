@@ -26,10 +26,10 @@ import (
 	"github.com/containerd/continuity/fs"
 	imagespec "github.com/opencontainers/image-spec/specs-go/v1"
 
-	containerd "github.com/containerd/containerd/v2/client"
-	"github.com/containerd/containerd/v2/core/containers"
-	"github.com/containerd/containerd/v2/core/mount"
-	"github.com/containerd/containerd/v2/core/snapshots"
+	containerd "github.com/basuotian/containerd/v2/client"
+	"github.com/basuotian/containerd/v2/core/containers"
+	"github.com/basuotian/containerd/v2/core/mount"
+	"github.com/basuotian/containerd/v2/core/snapshots"
 	"github.com/containerd/errdefs"
 	"github.com/containerd/log"
 )

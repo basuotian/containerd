@@ -27,9 +27,9 @@ import (
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/stretchr/testify/require"
 
-	"github.com/containerd/containerd/v2/core/content"
-	"github.com/containerd/containerd/v2/core/images/archive"
-	"github.com/containerd/containerd/v2/plugins/content/local"
+	"github.com/basuotian/containerd/v2/core/content"
+	"github.com/basuotian/containerd/v2/core/images/archive"
+	"github.com/basuotian/containerd/v2/plugins/content/local"
 )
 
 // checkBlobPath performs some basic validation

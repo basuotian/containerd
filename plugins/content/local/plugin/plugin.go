@@ -20,8 +20,8 @@ import (
 	"github.com/containerd/plugin"
 	"github.com/containerd/plugin/registry"
 
-	"github.com/containerd/containerd/v2/plugins"
-	"github.com/containerd/containerd/v2/plugins/content/local"
+	"github.com/basuotian/containerd/v2/plugins"
+	"github.com/basuotian/containerd/v2/plugins/content/local"
 )
 
 func init() {

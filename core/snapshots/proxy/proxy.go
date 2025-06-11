@@ -23,9 +23,9 @@ import (
 	snapshotsapi "github.com/containerd/containerd/api/services/snapshots/v1"
 	"github.com/containerd/errdefs/pkg/errgrpc"
 
-	"github.com/containerd/containerd/v2/core/mount"
-	"github.com/containerd/containerd/v2/core/snapshots"
-	protobuftypes "github.com/containerd/containerd/v2/pkg/protobuf/types"
+	"github.com/basuotian/containerd/v2/core/mount"
+	"github.com/basuotian/containerd/v2/core/snapshots"
+	protobuftypes "github.com/basuotian/containerd/v2/pkg/protobuf/types"
 )
 
 // NewSnapshotter returns a new Snapshotter which communicates over a GRPC

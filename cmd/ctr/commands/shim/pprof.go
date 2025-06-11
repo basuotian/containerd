@@ -26,9 +26,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/containerd/containerd/v2/cmd/ctr/commands/pprof"
-	"github.com/containerd/containerd/v2/pkg/namespaces"
-	"github.com/containerd/containerd/v2/pkg/shim"
+	"github.com/basuotian/containerd/v2/cmd/ctr/commands/pprof"
+	"github.com/basuotian/containerd/v2/pkg/namespaces"
+	"github.com/basuotian/containerd/v2/pkg/shim"
 	"github.com/urfave/cli/v2"
 )
 

@@ -26,9 +26,9 @@ import (
 	"github.com/containerd/errdefs/pkg/errgrpc"
 	digest "github.com/opencontainers/go-digest"
 
-	"github.com/containerd/containerd/v2/core/content"
-	"github.com/containerd/containerd/v2/defaults"
-	"github.com/containerd/containerd/v2/pkg/protobuf"
+	"github.com/basuotian/containerd/v2/core/content"
+	"github.com/basuotian/containerd/v2/defaults"
+	"github.com/basuotian/containerd/v2/pkg/protobuf"
 )
 
 type remoteWriter struct {

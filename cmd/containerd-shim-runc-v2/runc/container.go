@@ -37,10 +37,10 @@ import (
 	"github.com/containerd/log"
 	"github.com/containerd/typeurl/v2"
 
-	"github.com/containerd/containerd/v2/cmd/containerd-shim-runc-v2/process"
-	"github.com/containerd/containerd/v2/core/mount"
-	"github.com/containerd/containerd/v2/pkg/namespaces"
-	"github.com/containerd/containerd/v2/pkg/stdio"
+	"github.com/basuotian/containerd/v2/cmd/containerd-shim-runc-v2/process"
+	"github.com/basuotian/containerd/v2/core/mount"
+	"github.com/basuotian/containerd/v2/pkg/namespaces"
+	"github.com/basuotian/containerd/v2/pkg/stdio"
 )
 
 // NewContainer returns a new runc container

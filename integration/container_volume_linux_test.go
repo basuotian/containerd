@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/containerd/containerd/v2/integration/images"
-	"github.com/containerd/containerd/v2/pkg/kernelversion"
+	"github.com/basuotian/containerd/v2/integration/images"
+	"github.com/basuotian/containerd/v2/pkg/kernelversion"
 	"github.com/stretchr/testify/require"
 	criruntime "k8s.io/cri-api/pkg/apis/runtime/v1"
 )

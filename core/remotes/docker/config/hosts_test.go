@@ -29,7 +29,7 @@ import (
 
 	"github.com/containerd/log/logtest"
 
-	"github.com/containerd/containerd/v2/core/remotes/docker"
+	"github.com/basuotian/containerd/v2/core/remotes/docker"
 )
 
 const allCaps = docker.HostCapabilityPull | docker.HostCapabilityResolve | docker.HostCapabilityPush

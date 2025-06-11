@@ -19,12 +19,12 @@ package container
 import (
 	"sync"
 
-	containerd "github.com/containerd/containerd/v2/client"
-	cio "github.com/containerd/containerd/v2/internal/cri/io"
-	"github.com/containerd/containerd/v2/internal/cri/store"
-	"github.com/containerd/containerd/v2/internal/cri/store/label"
-	"github.com/containerd/containerd/v2/internal/cri/store/stats"
-	"github.com/containerd/containerd/v2/internal/truncindex"
+	containerd "github.com/basuotian/containerd/v2/client"
+	cio "github.com/basuotian/containerd/v2/internal/cri/io"
+	"github.com/basuotian/containerd/v2/internal/cri/store"
+	"github.com/basuotian/containerd/v2/internal/cri/store/label"
+	"github.com/basuotian/containerd/v2/internal/cri/store/stats"
+	"github.com/basuotian/containerd/v2/internal/truncindex"
 	"github.com/containerd/errdefs"
 
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"

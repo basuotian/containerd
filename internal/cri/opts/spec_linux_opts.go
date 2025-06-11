@@ -32,10 +32,10 @@ import (
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 	crierrors "k8s.io/cri-api/pkg/errors"
 
-	"github.com/containerd/containerd/v2/core/containers"
-	"github.com/containerd/containerd/v2/core/mount"
-	"github.com/containerd/containerd/v2/pkg/oci"
-	osinterface "github.com/containerd/containerd/v2/pkg/os"
+	"github.com/basuotian/containerd/v2/core/containers"
+	"github.com/basuotian/containerd/v2/core/mount"
+	"github.com/basuotian/containerd/v2/pkg/oci"
+	osinterface "github.com/basuotian/containerd/v2/pkg/os"
 	"github.com/containerd/log"
 )
 

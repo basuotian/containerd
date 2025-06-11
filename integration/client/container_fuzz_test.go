@@ -30,8 +30,8 @@ import (
 	"time"
 
 	fuzz "github.com/AdaLogics/go-fuzz-headers"
-	containerd "github.com/containerd/containerd/v2/client"
-	"github.com/containerd/containerd/v2/pkg/oci"
+	containerd "github.com/basuotian/containerd/v2/client"
+	"github.com/basuotian/containerd/v2/pkg/oci"
 )
 
 const (

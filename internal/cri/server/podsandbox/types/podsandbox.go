@@ -20,10 +20,10 @@ import (
 	"context"
 	"time"
 
-	containerd "github.com/containerd/containerd/v2/client"
-	"github.com/containerd/containerd/v2/core/sandbox"
-	"github.com/containerd/containerd/v2/internal/cri/store"
-	sandboxstore "github.com/containerd/containerd/v2/internal/cri/store/sandbox"
+	containerd "github.com/basuotian/containerd/v2/client"
+	"github.com/basuotian/containerd/v2/core/sandbox"
+	"github.com/basuotian/containerd/v2/internal/cri/store"
+	sandboxstore "github.com/basuotian/containerd/v2/internal/cri/store/sandbox"
 )
 
 type PodSandbox struct {

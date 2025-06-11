@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/containerd/containerd/v2/internal/cri/setutils"
+	"github.com/basuotian/containerd/v2/internal/cri/setutils"
 	"github.com/containerd/errdefs"
 
 	"github.com/opencontainers/go-digest/digestset"

@@ -27,8 +27,8 @@ import (
 	"github.com/containerd/typeurl/v2"
 	imagespec "github.com/opencontainers/image-spec/specs-go/v1"
 
-	"github.com/containerd/containerd/v2/core/mount"
-	"github.com/containerd/containerd/v2/core/sandbox"
+	"github.com/basuotian/containerd/v2/core/mount"
+	"github.com/basuotian/containerd/v2/core/sandbox"
 )
 
 // remoteSandboxController is a low level GRPC client for containerd's sandbox controller service

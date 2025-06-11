@@ -26,8 +26,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/containerd/containerd/v2/core/remotes/docker/auth"
-	remoteerrors "github.com/containerd/containerd/v2/core/remotes/errors"
+	"github.com/basuotian/containerd/v2/core/remotes/docker/auth"
+	remoteerrors "github.com/basuotian/containerd/v2/core/remotes/errors"
 	"github.com/containerd/errdefs"
 	"github.com/containerd/log"
 )

@@ -20,7 +20,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/containerd/containerd/v2/pkg/tracing"
+	"github.com/basuotian/containerd/v2/pkg/tracing"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 )
 

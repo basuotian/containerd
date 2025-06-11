@@ -21,13 +21,13 @@ import (
 	"fmt"
 	"io"
 
-	containerd "github.com/containerd/containerd/v2/client"
-	"github.com/containerd/containerd/v2/pkg/tracing"
+	containerd "github.com/basuotian/containerd/v2/client"
+	"github.com/basuotian/containerd/v2/pkg/tracing"
 	"github.com/containerd/log"
 	"k8s.io/client-go/tools/remotecommand"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	cio "github.com/containerd/containerd/v2/internal/cri/io"
+	cio "github.com/basuotian/containerd/v2/internal/cri/io"
 )
 
 // Attach prepares a streaming endpoint to attach to a running container, and returns the address.

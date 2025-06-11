@@ -36,13 +36,13 @@ import (
 	"github.com/stretchr/testify/require"
 	criruntime "k8s.io/cri-api/pkg/apis/runtime/v1"
 
+	shimcore "github.com/basuotian/containerd/v2/core/runtime/v2"
+	cri "github.com/basuotian/containerd/v2/integration/cri-api/pkg/apis"
+	"github.com/basuotian/containerd/v2/integration/images"
+	"github.com/basuotian/containerd/v2/integration/remote"
+	"github.com/basuotian/containerd/v2/pkg/namespaces"
+	shimbinary "github.com/basuotian/containerd/v2/pkg/shim"
 	apitask "github.com/containerd/containerd/api/runtime/task/v3"
-	shimcore "github.com/containerd/containerd/v2/core/runtime/v2"
-	cri "github.com/containerd/containerd/v2/integration/cri-api/pkg/apis"
-	"github.com/containerd/containerd/v2/integration/images"
-	"github.com/containerd/containerd/v2/integration/remote"
-	"github.com/containerd/containerd/v2/pkg/namespaces"
-	shimbinary "github.com/containerd/containerd/v2/pkg/shim"
 	"github.com/containerd/ttrpc"
 )
 

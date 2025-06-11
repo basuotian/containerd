@@ -33,12 +33,12 @@ import (
 	"golang.org/x/sys/unix"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	containerd "github.com/containerd/containerd/v2/client"
-	"github.com/containerd/containerd/v2/core/mount"
-	"github.com/containerd/containerd/v2/core/snapshots"
-	"github.com/containerd/containerd/v2/internal/cri/seutil"
-	"github.com/containerd/containerd/v2/pkg/apparmor"
-	"github.com/containerd/containerd/v2/pkg/seccomp"
+	containerd "github.com/basuotian/containerd/v2/client"
+	"github.com/basuotian/containerd/v2/core/mount"
+	"github.com/basuotian/containerd/v2/core/snapshots"
+	"github.com/basuotian/containerd/v2/internal/cri/seutil"
+	"github.com/basuotian/containerd/v2/pkg/apparmor"
+	"github.com/basuotian/containerd/v2/pkg/seccomp"
 )
 
 // apparmorEnabled returns true if apparmor is enabled, supported by the host,

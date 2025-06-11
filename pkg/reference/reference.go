@@ -22,7 +22,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/containerd/containerd/v2/internal/lazyregexp"
+	"github.com/basuotian/containerd/v2/internal/lazyregexp"
 	digest "github.com/opencontainers/go-digest"
 )
 

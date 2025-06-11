@@ -32,10 +32,10 @@ import (
 	"github.com/containerd/ttrpc"
 	"github.com/containerd/typeurl/v2"
 
-	"github.com/containerd/containerd/v2/pkg/atomicfile"
-	"github.com/containerd/containerd/v2/pkg/namespaces"
-	"github.com/containerd/containerd/v2/pkg/protobuf/proto"
-	"github.com/containerd/containerd/v2/pkg/protobuf/types"
+	"github.com/basuotian/containerd/v2/pkg/atomicfile"
+	"github.com/basuotian/containerd/v2/pkg/namespaces"
+	"github.com/basuotian/containerd/v2/pkg/protobuf/proto"
+	"github.com/basuotian/containerd/v2/pkg/protobuf/types"
 	"github.com/containerd/errdefs"
 )
 

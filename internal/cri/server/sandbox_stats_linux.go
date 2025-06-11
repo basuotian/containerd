@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"time"
 
+	sandboxstore "github.com/basuotian/containerd/v2/internal/cri/store/sandbox"
 	"github.com/containerd/cgroups/v3"
 	"github.com/containerd/cgroups/v3/cgroup1"
 	cgroupsv2 "github.com/containerd/cgroups/v3/cgroup2"
-	sandboxstore "github.com/containerd/containerd/v2/internal/cri/store/sandbox"
 	"github.com/containerd/errdefs"
 	"github.com/containerd/log"
 	"github.com/containernetworking/plugins/pkg/ns"

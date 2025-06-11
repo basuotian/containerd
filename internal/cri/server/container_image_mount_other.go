@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/containerd/containerd/v2/core/mount"
+	"github.com/basuotian/containerd/v2/core/mount"
 )
 
 // addVolatileOptionOnImageVolumeMount is no-op on non-linux platforms.

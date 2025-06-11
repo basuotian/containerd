@@ -17,10 +17,10 @@
 package images
 
 import (
+	"github.com/basuotian/containerd/v2/core/images"
+	"github.com/basuotian/containerd/v2/pkg/oci"
+	"github.com/basuotian/containerd/v2/pkg/protobuf"
 	imagesapi "github.com/containerd/containerd/api/services/images/v1"
-	"github.com/containerd/containerd/v2/core/images"
-	"github.com/containerd/containerd/v2/pkg/oci"
-	"github.com/containerd/containerd/v2/pkg/protobuf"
 )
 
 func imagesToProto(images []images.Image) []*imagesapi.Image {

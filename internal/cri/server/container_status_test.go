@@ -22,18 +22,18 @@ import (
 	"testing"
 	"time"
 
-	containerd "github.com/containerd/containerd/v2/client"
-	"github.com/containerd/containerd/v2/core/containers"
-	criconfig "github.com/containerd/containerd/v2/internal/cri/config"
-	snapshotstore "github.com/containerd/containerd/v2/internal/cri/store/snapshot"
-	"github.com/containerd/containerd/v2/pkg/cio"
+	containerd "github.com/basuotian/containerd/v2/client"
+	"github.com/basuotian/containerd/v2/core/containers"
+	criconfig "github.com/basuotian/containerd/v2/internal/cri/config"
+	snapshotstore "github.com/basuotian/containerd/v2/internal/cri/store/snapshot"
+	"github.com/basuotian/containerd/v2/pkg/cio"
 	"github.com/containerd/typeurl/v2"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/stretchr/testify/assert"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	containerstore "github.com/containerd/containerd/v2/internal/cri/store/container"
-	imagestore "github.com/containerd/containerd/v2/internal/cri/store/image"
+	containerstore "github.com/basuotian/containerd/v2/internal/cri/store/container"
+	imagestore "github.com/basuotian/containerd/v2/internal/cri/store/image"
 )
 
 func getContainerStatusTestData(t *testing.T) (*containerstore.Metadata, containerd.Container, *containerstore.Status,

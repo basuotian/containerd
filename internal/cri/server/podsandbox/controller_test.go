@@ -23,10 +23,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	criconfig "github.com/containerd/containerd/v2/internal/cri/config"
-	"github.com/containerd/containerd/v2/internal/cri/server/podsandbox/types"
-	sandboxstore "github.com/containerd/containerd/v2/internal/cri/store/sandbox"
-	ostesting "github.com/containerd/containerd/v2/pkg/os/testing"
+	criconfig "github.com/basuotian/containerd/v2/internal/cri/config"
+	"github.com/basuotian/containerd/v2/internal/cri/server/podsandbox/types"
+	sandboxstore "github.com/basuotian/containerd/v2/internal/cri/store/sandbox"
+	ostesting "github.com/basuotian/containerd/v2/pkg/os/testing"
 )
 
 const (

@@ -23,8 +23,8 @@ import (
 	"errors"
 	"fmt"
 
+	google_protobuf "github.com/basuotian/containerd/v2/pkg/protobuf/types"
 	"github.com/containerd/console"
-	google_protobuf "github.com/containerd/containerd/v2/pkg/protobuf/types"
 	"github.com/containerd/errdefs"
 )
 
