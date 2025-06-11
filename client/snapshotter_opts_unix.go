@@ -24,8 +24,8 @@ import (
 	"fmt"
 	"slices"
 
-	"github.com/basuotian/containerd/v2/core/snapshots"
-	"github.com/basuotian/containerd/v2/internal/userns"
+	"github.com/basuotian/containerd/core/snapshots"
+	"github.com/basuotian/containerd/internal/userns"
 	"github.com/opencontainers/go-digest"
 	"github.com/opencontainers/runtime-spec/specs-go"
 )

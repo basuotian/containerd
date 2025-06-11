@@ -23,7 +23,7 @@ import (
 
 	"github.com/containerd/log"
 
-	"github.com/basuotian/containerd/v2/version"
+	"github.com/basuotian/containerd/version"
 	nri "github.com/containerd/nri/pkg/adaptation"
 )
 

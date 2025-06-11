@@ -25,11 +25,11 @@ import (
 
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	"github.com/basuotian/containerd/v2/internal/cri/constants"
-	crilabels "github.com/basuotian/containerd/v2/internal/cri/labels"
-	clabels "github.com/basuotian/containerd/v2/pkg/labels"
-	"github.com/basuotian/containerd/v2/pkg/namespaces"
-	"github.com/basuotian/containerd/v2/pkg/timeout"
+	"github.com/basuotian/containerd/internal/cri/constants"
+	crilabels "github.com/basuotian/containerd/internal/cri/labels"
+	clabels "github.com/basuotian/containerd/pkg/labels"
+	"github.com/basuotian/containerd/pkg/namespaces"
+	"github.com/basuotian/containerd/pkg/timeout"
 	"github.com/containerd/log"
 )
 

@@ -20,9 +20,9 @@ import (
 	"context"
 	"testing"
 
-	criconfig "github.com/basuotian/containerd/v2/internal/cri/config"
-	"github.com/basuotian/containerd/v2/internal/cri/systemd"
-	"github.com/basuotian/containerd/v2/plugins"
+	criconfig "github.com/basuotian/containerd/internal/cri/config"
+	"github.com/basuotian/containerd/internal/cri/systemd"
+	"github.com/basuotian/containerd/plugins"
 	"github.com/stretchr/testify/assert"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 )

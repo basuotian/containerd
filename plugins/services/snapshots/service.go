@@ -27,12 +27,12 @@ import (
 	"github.com/containerd/plugin/registry"
 	"google.golang.org/grpc"
 
-	"github.com/basuotian/containerd/v2/core/mount"
-	"github.com/basuotian/containerd/v2/core/snapshots"
-	"github.com/basuotian/containerd/v2/core/snapshots/proxy"
-	ptypes "github.com/basuotian/containerd/v2/pkg/protobuf/types"
-	"github.com/basuotian/containerd/v2/plugins"
-	"github.com/basuotian/containerd/v2/plugins/services"
+	"github.com/basuotian/containerd/core/mount"
+	"github.com/basuotian/containerd/core/snapshots"
+	"github.com/basuotian/containerd/core/snapshots/proxy"
+	ptypes "github.com/basuotian/containerd/pkg/protobuf/types"
+	"github.com/basuotian/containerd/plugins"
+	"github.com/basuotian/containerd/plugins/services"
 )
 
 func init() {

@@ -28,7 +28,7 @@ import (
 	"os/exec"
 	"sync"
 
-	"github.com/basuotian/containerd/v2/pkg/protobuf/proto"
+	"github.com/basuotian/containerd/pkg/protobuf/proto"
 	"github.com/containerd/typeurl/v2"
 )
 

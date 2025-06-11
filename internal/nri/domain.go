@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/basuotian/containerd/v2/pkg/namespaces"
+	"github.com/basuotian/containerd/pkg/namespaces"
 	"github.com/containerd/errdefs"
 	"github.com/containerd/log"
 	nri "github.com/containerd/nri/pkg/adaptation"

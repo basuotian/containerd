@@ -23,15 +23,15 @@ import (
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	bolt "go.etcd.io/bbolt"
 
-	"github.com/basuotian/containerd/v2/core/containers"
-	"github.com/basuotian/containerd/v2/core/content"
-	"github.com/basuotian/containerd/v2/core/images"
-	"github.com/basuotian/containerd/v2/core/leases"
-	"github.com/basuotian/containerd/v2/core/metadata"
-	"github.com/basuotian/containerd/v2/core/snapshots"
-	"github.com/basuotian/containerd/v2/pkg/namespaces"
-	"github.com/basuotian/containerd/v2/plugins/content/local"
-	"github.com/basuotian/containerd/v2/plugins/snapshots/native"
+	"github.com/basuotian/containerd/core/containers"
+	"github.com/basuotian/containerd/core/content"
+	"github.com/basuotian/containerd/core/images"
+	"github.com/basuotian/containerd/core/leases"
+	"github.com/basuotian/containerd/core/metadata"
+	"github.com/basuotian/containerd/core/snapshots"
+	"github.com/basuotian/containerd/pkg/namespaces"
+	"github.com/basuotian/containerd/plugins/content/local"
+	"github.com/basuotian/containerd/plugins/snapshots/native"
 )
 
 func testEnv(t *testing.T) (context.Context, *bolt.DB, func(), error) {

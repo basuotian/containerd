@@ -37,7 +37,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/basuotian/containerd/v2/internal/cri/streamingserver/responsewriter"
+	"github.com/basuotian/containerd/internal/cri/streamingserver/responsewriter"
 	"k8s.io/apimachinery/pkg/util/httpstream/wsstream"
 	"k8s.io/apimachinery/pkg/util/runtime"
 )

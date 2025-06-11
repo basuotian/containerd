@@ -33,10 +33,10 @@ import (
 	digest "github.com/opencontainers/go-digest"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 
-	"github.com/basuotian/containerd/v2/core/content"
-	"github.com/basuotian/containerd/v2/core/images"
-	"github.com/basuotian/containerd/v2/core/remotes"
-	remoteserrors "github.com/basuotian/containerd/v2/core/remotes/errors"
+	"github.com/basuotian/containerd/core/content"
+	"github.com/basuotian/containerd/core/images"
+	"github.com/basuotian/containerd/core/remotes"
+	remoteserrors "github.com/basuotian/containerd/core/remotes/errors"
 )
 
 type dockerPusher struct {

@@ -25,9 +25,9 @@ import (
 	"github.com/containerd/log"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	"github.com/basuotian/containerd/v2/pkg/tracing"
+	"github.com/basuotian/containerd/pkg/tracing"
 
-	ctrdutil "github.com/basuotian/containerd/v2/internal/cri/util"
+	ctrdutil "github.com/basuotian/containerd/internal/cri/util"
 )
 
 // criService is an CRI server dependency to be wrapped with instrumentation.

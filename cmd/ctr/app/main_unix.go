@@ -18,7 +18,7 @@
 
 package app
 
-import "github.com/basuotian/containerd/v2/cmd/ctr/commands/shim"
+import "github.com/basuotian/containerd/cmd/ctr/commands/shim"
 
 func init() {
 	extraCmds = append(extraCmds, shim.Command)

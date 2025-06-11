@@ -17,6 +17,6 @@
 package builtins
 
 import (
-	_ "github.com/basuotian/containerd/v2/plugins/diff/walking/plugin"
+	_ "github.com/basuotian/containerd/plugins/diff/walking/plugin"
 	_ "github.com/containerd/zfs/v2/plugin"
 )

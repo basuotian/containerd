@@ -23,9 +23,9 @@ import (
 
 	imagespec "github.com/opencontainers/image-spec/specs-go/v1"
 
-	"github.com/basuotian/containerd/v2/client"
-	"github.com/basuotian/containerd/v2/core/sandbox"
-	criconfig "github.com/basuotian/containerd/v2/internal/cri/config"
+	"github.com/basuotian/containerd/client"
+	"github.com/basuotian/containerd/core/sandbox"
+	criconfig "github.com/basuotian/containerd/internal/cri/config"
 )
 
 type criSandboxService struct {

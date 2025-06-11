@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/basuotian/containerd/v2/pkg/namespaces"
+	"github.com/basuotian/containerd/pkg/namespaces"
 	apitask "github.com/containerd/containerd/api/runtime/task/v3"
 )
 

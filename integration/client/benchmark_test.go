@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"testing"
 
-	. "github.com/basuotian/containerd/v2/client"
-	"github.com/basuotian/containerd/v2/core/containers"
-	"github.com/basuotian/containerd/v2/pkg/oci"
+	. "github.com/basuotian/containerd/client"
+	"github.com/basuotian/containerd/core/containers"
+	"github.com/basuotian/containerd/pkg/oci"
 )
 
 func BenchmarkContainerCreate(b *testing.B) {

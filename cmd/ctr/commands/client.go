@@ -22,9 +22,9 @@ import (
 	"os"
 	"strconv"
 
-	containerd "github.com/basuotian/containerd/v2/client"
-	"github.com/basuotian/containerd/v2/pkg/epoch"
-	"github.com/basuotian/containerd/v2/pkg/namespaces"
+	containerd "github.com/basuotian/containerd/client"
+	"github.com/basuotian/containerd/pkg/epoch"
+	"github.com/basuotian/containerd/pkg/namespaces"
 	"github.com/containerd/log"
 	"github.com/urfave/cli/v2"
 )

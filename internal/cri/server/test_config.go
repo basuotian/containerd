@@ -16,7 +16,7 @@
 
 package server
 
-import criconfig "github.com/basuotian/containerd/v2/internal/cri/config"
+import criconfig "github.com/basuotian/containerd/internal/cri/config"
 
 const (
 	testRootDir  = "/test/root"

@@ -17,8 +17,8 @@
 package annotations
 
 import (
-	customopts "github.com/basuotian/containerd/v2/internal/cri/opts"
-	"github.com/basuotian/containerd/v2/pkg/oci"
+	customopts "github.com/basuotian/containerd/internal/cri/opts"
+	"github.com/basuotian/containerd/pkg/oci"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 )
 

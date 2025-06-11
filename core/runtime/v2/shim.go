@@ -44,17 +44,17 @@ import (
 	"github.com/containerd/ttrpc"
 	"github.com/containerd/typeurl/v2"
 
-	"github.com/basuotian/containerd/v2/core/events/exchange"
-	"github.com/basuotian/containerd/v2/core/runtime"
-	"github.com/basuotian/containerd/v2/pkg/archive"
-	"github.com/basuotian/containerd/v2/pkg/archive/compression"
-	"github.com/basuotian/containerd/v2/pkg/atomicfile"
-	"github.com/basuotian/containerd/v2/pkg/dialer"
-	"github.com/basuotian/containerd/v2/pkg/identifiers"
-	"github.com/basuotian/containerd/v2/pkg/protobuf"
-	ptypes "github.com/basuotian/containerd/v2/pkg/protobuf/types"
-	client "github.com/basuotian/containerd/v2/pkg/shim"
-	"github.com/basuotian/containerd/v2/pkg/timeout"
+	"github.com/basuotian/containerd/core/events/exchange"
+	"github.com/basuotian/containerd/core/runtime"
+	"github.com/basuotian/containerd/pkg/archive"
+	"github.com/basuotian/containerd/pkg/archive/compression"
+	"github.com/basuotian/containerd/pkg/atomicfile"
+	"github.com/basuotian/containerd/pkg/dialer"
+	"github.com/basuotian/containerd/pkg/identifiers"
+	"github.com/basuotian/containerd/pkg/protobuf"
+	ptypes "github.com/basuotian/containerd/pkg/protobuf/types"
+	client "github.com/basuotian/containerd/pkg/shim"
+	"github.com/basuotian/containerd/pkg/timeout"
 )
 
 const (

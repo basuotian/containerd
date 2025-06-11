@@ -26,9 +26,9 @@ import (
 	"github.com/containerd/log"
 	"github.com/containerd/typeurl/v2"
 
-	"github.com/basuotian/containerd/v2/core/events"
-	"github.com/basuotian/containerd/v2/internal/cri/clock"
-	"github.com/basuotian/containerd/v2/internal/cri/constants"
+	"github.com/basuotian/containerd/core/events"
+	"github.com/basuotian/containerd/internal/cri/clock"
+	"github.com/basuotian/containerd/internal/cri/constants"
 	eventtypes "github.com/containerd/containerd/api/events"
 )
 

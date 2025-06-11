@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/basuotian/containerd/v2/core/content"
+	"github.com/basuotian/containerd/core/content"
 	"github.com/containerd/errdefs"
 	"github.com/moby/locker"
 )

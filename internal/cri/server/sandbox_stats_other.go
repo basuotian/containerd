@@ -22,7 +22,7 @@ import (
 	"context"
 	"fmt"
 
-	sandboxstore "github.com/basuotian/containerd/v2/internal/cri/store/sandbox"
+	sandboxstore "github.com/basuotian/containerd/internal/cri/store/sandbox"
 	"github.com/containerd/errdefs"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 )

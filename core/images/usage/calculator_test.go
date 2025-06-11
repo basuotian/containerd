@@ -20,8 +20,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/basuotian/containerd/v2/core/images"
-	"github.com/basuotian/containerd/v2/core/images/imagetest"
+	"github.com/basuotian/containerd/core/images"
+	"github.com/basuotian/containerd/core/images/imagetest"
 	"github.com/containerd/log/logtest"
 	"github.com/containerd/platforms"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"

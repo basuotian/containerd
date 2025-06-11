@@ -23,7 +23,7 @@ import (
 
 	"github.com/containerd/log"
 
-	ctrdutil "github.com/basuotian/containerd/v2/internal/cri/util"
+	ctrdutil "github.com/basuotian/containerd/internal/cri/util"
 	eventtypes "github.com/containerd/containerd/api/events"
 )
 

@@ -47,8 +47,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	kubeletportforward "github.com/basuotian/containerd/v2/internal/cri/streamingserver/portforward"
-	api "github.com/basuotian/containerd/v2/internal/cri/streamingserver/v1"
+	kubeletportforward "github.com/basuotian/containerd/internal/cri/streamingserver/portforward"
+	api "github.com/basuotian/containerd/internal/cri/streamingserver/v1"
 	restclient "k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/remotecommand"
 	"k8s.io/client-go/transport/spdy"

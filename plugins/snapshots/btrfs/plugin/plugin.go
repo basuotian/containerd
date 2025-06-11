@@ -23,8 +23,8 @@ import (
 
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 
-	"github.com/basuotian/containerd/v2/plugins"
-	"github.com/basuotian/containerd/v2/plugins/snapshots/btrfs"
+	"github.com/basuotian/containerd/plugins"
+	"github.com/basuotian/containerd/plugins/snapshots/btrfs"
 	"github.com/containerd/platforms"
 	"github.com/containerd/plugin"
 	"github.com/containerd/plugin/registry"

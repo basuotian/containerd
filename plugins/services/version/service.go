@@ -19,9 +19,9 @@ package version
 import (
 	"context"
 
-	ptypes "github.com/basuotian/containerd/v2/pkg/protobuf/types"
-	"github.com/basuotian/containerd/v2/plugins"
-	ctrdversion "github.com/basuotian/containerd/v2/version"
+	ptypes "github.com/basuotian/containerd/pkg/protobuf/types"
+	"github.com/basuotian/containerd/plugins"
+	ctrdversion "github.com/basuotian/containerd/version"
 	api "github.com/containerd/containerd/api/services/version/v1"
 	"github.com/containerd/plugin"
 	"github.com/containerd/plugin/registry"

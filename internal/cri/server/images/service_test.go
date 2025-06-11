@@ -20,9 +20,9 @@ import (
 	"context"
 	"testing"
 
-	criconfig "github.com/basuotian/containerd/v2/internal/cri/config"
-	imagestore "github.com/basuotian/containerd/v2/internal/cri/store/image"
-	snapshotstore "github.com/basuotian/containerd/v2/internal/cri/store/snapshot"
+	criconfig "github.com/basuotian/containerd/internal/cri/config"
+	imagestore "github.com/basuotian/containerd/internal/cri/store/image"
+	snapshotstore "github.com/basuotian/containerd/internal/cri/store/snapshot"
 	"github.com/containerd/errdefs"
 	"github.com/containerd/platforms"
 	"github.com/stretchr/testify/assert"

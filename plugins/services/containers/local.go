@@ -31,12 +31,12 @@ import (
 	grpcm "google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
-	"github.com/basuotian/containerd/v2/core/containers"
-	"github.com/basuotian/containerd/v2/core/events"
-	"github.com/basuotian/containerd/v2/core/metadata"
-	ptypes "github.com/basuotian/containerd/v2/pkg/protobuf/types"
-	"github.com/basuotian/containerd/v2/plugins"
-	"github.com/basuotian/containerd/v2/plugins/services"
+	"github.com/basuotian/containerd/core/containers"
+	"github.com/basuotian/containerd/core/events"
+	"github.com/basuotian/containerd/core/metadata"
+	ptypes "github.com/basuotian/containerd/pkg/protobuf/types"
+	"github.com/basuotian/containerd/plugins"
+	"github.com/basuotian/containerd/plugins/services"
 )
 
 var empty = &ptypes.Empty{}

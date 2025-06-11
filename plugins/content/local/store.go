@@ -30,9 +30,9 @@ import (
 	"github.com/containerd/errdefs"
 	"github.com/containerd/log"
 
-	"github.com/basuotian/containerd/v2/core/content"
-	"github.com/basuotian/containerd/v2/internal/fsverity"
-	"github.com/basuotian/containerd/v2/pkg/filters"
+	"github.com/basuotian/containerd/core/content"
+	"github.com/basuotian/containerd/internal/fsverity"
+	"github.com/basuotian/containerd/pkg/filters"
 
 	"github.com/opencontainers/go-digest"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"

@@ -23,7 +23,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/basuotian/containerd/v2/core/images"
+	"github.com/basuotian/containerd/core/images"
 	"github.com/containerd/errdefs"
 	"github.com/opencontainers/go-digest"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"

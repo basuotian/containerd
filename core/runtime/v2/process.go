@@ -26,8 +26,8 @@ import (
 	"github.com/containerd/errdefs/pkg/errgrpc"
 	"github.com/containerd/ttrpc"
 
-	"github.com/basuotian/containerd/v2/core/runtime"
-	"github.com/basuotian/containerd/v2/pkg/protobuf"
+	"github.com/basuotian/containerd/core/runtime"
+	"github.com/basuotian/containerd/pkg/protobuf"
 )
 
 type process struct {

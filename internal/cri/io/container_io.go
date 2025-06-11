@@ -25,9 +25,9 @@ import (
 
 	"github.com/containerd/log"
 
-	"github.com/basuotian/containerd/v2/internal/cri/util"
-	"github.com/basuotian/containerd/v2/pkg/cio"
-	cioutil "github.com/basuotian/containerd/v2/pkg/ioutil"
+	"github.com/basuotian/containerd/internal/cri/util"
+	"github.com/basuotian/containerd/pkg/cio"
+	cioutil "github.com/basuotian/containerd/pkg/ioutil"
 )
 
 // streamKey generates a key for the stream.

@@ -22,10 +22,10 @@ import (
 	"os"
 	"text/tabwriter"
 
-	containerd "github.com/basuotian/containerd/v2/client"
-	"github.com/basuotian/containerd/v2/cmd/ctr/commands"
-	"github.com/basuotian/containerd/v2/defaults"
-	"github.com/basuotian/containerd/v2/pkg/oci"
+	containerd "github.com/basuotian/containerd/client"
+	"github.com/basuotian/containerd/cmd/ctr/commands"
+	"github.com/basuotian/containerd/defaults"
+	"github.com/basuotian/containerd/pkg/oci"
 	"github.com/containerd/log"
 	"github.com/urfave/cli/v2"
 )

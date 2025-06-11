@@ -21,11 +21,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/basuotian/containerd/v2/core/containers"
-	"github.com/basuotian/containerd/v2/core/content"
-	"github.com/basuotian/containerd/v2/core/images"
-	"github.com/basuotian/containerd/v2/pkg/protobuf/proto"
-	ptypes "github.com/basuotian/containerd/v2/pkg/protobuf/types"
+	"github.com/basuotian/containerd/core/containers"
+	"github.com/basuotian/containerd/core/content"
+	"github.com/basuotian/containerd/core/images"
+	"github.com/basuotian/containerd/pkg/protobuf/proto"
+	ptypes "github.com/basuotian/containerd/pkg/protobuf/types"
 	"github.com/opencontainers/image-spec/identity"
 	imagespec "github.com/opencontainers/image-spec/specs-go/v1"
 )

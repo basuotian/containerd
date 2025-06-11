@@ -22,10 +22,10 @@ import (
 	"testing"
 
 	fuzz "github.com/AdaLogics/go-fuzz-headers"
-	"github.com/basuotian/containerd/v2/core/diff/apply"
-	"github.com/basuotian/containerd/v2/core/mount"
-	"github.com/basuotian/containerd/v2/plugins/content/local"
-	"github.com/basuotian/containerd/v2/plugins/diff/walking"
+	"github.com/basuotian/containerd/core/diff/apply"
+	"github.com/basuotian/containerd/core/mount"
+	"github.com/basuotian/containerd/plugins/content/local"
+	"github.com/basuotian/containerd/plugins/diff/walking"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

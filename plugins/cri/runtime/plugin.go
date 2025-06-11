@@ -30,12 +30,12 @@ import (
 	imagespec "github.com/opencontainers/image-spec/specs-go/v1"
 	"k8s.io/klog/v2"
 
-	criconfig "github.com/basuotian/containerd/v2/internal/cri/config"
-	"github.com/basuotian/containerd/v2/internal/cri/constants"
-	"github.com/basuotian/containerd/v2/pkg/oci"
-	"github.com/basuotian/containerd/v2/plugins"
-	"github.com/basuotian/containerd/v2/plugins/services/warning"
-	"github.com/basuotian/containerd/v2/version"
+	criconfig "github.com/basuotian/containerd/internal/cri/config"
+	"github.com/basuotian/containerd/internal/cri/constants"
+	"github.com/basuotian/containerd/pkg/oci"
+	"github.com/basuotian/containerd/plugins"
+	"github.com/basuotian/containerd/plugins/services/warning"
+	"github.com/basuotian/containerd/version"
 	"github.com/containerd/errdefs"
 	"github.com/containerd/platforms"
 )

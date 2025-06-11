@@ -36,11 +36,11 @@ import (
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/opencontainers/selinux/go-selinux/label"
 
-	"github.com/basuotian/containerd/v2/core/containers"
-	"github.com/basuotian/containerd/v2/core/images"
-	"github.com/basuotian/containerd/v2/pkg/cio"
-	"github.com/basuotian/containerd/v2/pkg/oci"
-	"github.com/basuotian/containerd/v2/pkg/tracing"
+	"github.com/basuotian/containerd/core/containers"
+	"github.com/basuotian/containerd/core/images"
+	"github.com/basuotian/containerd/pkg/cio"
+	"github.com/basuotian/containerd/pkg/oci"
+	"github.com/basuotian/containerd/pkg/tracing"
 )
 
 const (

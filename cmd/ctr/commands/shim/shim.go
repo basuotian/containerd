@@ -36,10 +36,10 @@ import (
 	"github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/urfave/cli/v2"
 
-	"github.com/basuotian/containerd/v2/cmd/ctr/commands"
-	"github.com/basuotian/containerd/v2/pkg/namespaces"
-	ptypes "github.com/basuotian/containerd/v2/pkg/protobuf/types"
-	"github.com/basuotian/containerd/v2/pkg/shim"
+	"github.com/basuotian/containerd/cmd/ctr/commands"
+	"github.com/basuotian/containerd/pkg/namespaces"
+	ptypes "github.com/basuotian/containerd/pkg/protobuf/types"
+	"github.com/basuotian/containerd/pkg/shim"
 )
 
 var fifoFlags = []cli.Flag{

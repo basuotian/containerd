@@ -23,7 +23,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/basuotian/containerd/v2/pkg/kernelversion"
+	"github.com/basuotian/containerd/pkg/kernelversion"
 	"golang.org/x/sys/unix"
 )
 

@@ -29,7 +29,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/mod/semver"
 
-	"github.com/basuotian/containerd/v2/pkg/archive"
+	"github.com/basuotian/containerd/pkg/archive"
 )
 
 // downloadPreviousLatestReleaseBinary downloads the latest version of previous

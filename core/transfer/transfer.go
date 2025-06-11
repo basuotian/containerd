@@ -24,8 +24,8 @@ import (
 
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 
-	"github.com/basuotian/containerd/v2/core/content"
-	"github.com/basuotian/containerd/v2/core/images"
+	"github.com/basuotian/containerd/core/content"
+	"github.com/basuotian/containerd/core/images"
 )
 
 type Transferrer interface {

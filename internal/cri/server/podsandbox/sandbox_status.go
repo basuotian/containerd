@@ -23,11 +23,11 @@ import (
 
 	"github.com/containerd/typeurl/v2"
 
-	containerd "github.com/basuotian/containerd/v2/client"
-	"github.com/basuotian/containerd/v2/core/containers"
-	"github.com/basuotian/containerd/v2/core/sandbox"
-	"github.com/basuotian/containerd/v2/internal/cri/server/podsandbox/types"
-	critypes "github.com/basuotian/containerd/v2/internal/cri/types"
+	containerd "github.com/basuotian/containerd/client"
+	"github.com/basuotian/containerd/core/containers"
+	"github.com/basuotian/containerd/core/sandbox"
+	"github.com/basuotian/containerd/internal/cri/server/podsandbox/types"
+	critypes "github.com/basuotian/containerd/internal/cri/types"
 	"github.com/containerd/errdefs"
 )
 

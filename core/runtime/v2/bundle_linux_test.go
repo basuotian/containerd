@@ -26,9 +26,9 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/basuotian/containerd/v2/pkg/namespaces"
-	"github.com/basuotian/containerd/v2/pkg/oci"
-	"github.com/basuotian/containerd/v2/pkg/testutil"
+	"github.com/basuotian/containerd/pkg/namespaces"
+	"github.com/basuotian/containerd/pkg/oci"
+	"github.com/basuotian/containerd/pkg/testutil"
 	"github.com/containerd/typeurl/v2"
 	"github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/stretchr/testify/assert"

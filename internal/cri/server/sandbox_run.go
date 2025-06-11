@@ -31,16 +31,16 @@ import (
 	"github.com/containerd/typeurl/v2"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	"github.com/basuotian/containerd/v2/core/leases"
-	sb "github.com/basuotian/containerd/v2/core/sandbox"
-	"github.com/basuotian/containerd/v2/internal/cri/annotations"
-	"github.com/basuotian/containerd/v2/internal/cri/bandwidth"
-	criconfig "github.com/basuotian/containerd/v2/internal/cri/config"
-	"github.com/basuotian/containerd/v2/internal/cri/server/podsandbox"
-	sandboxstore "github.com/basuotian/containerd/v2/internal/cri/store/sandbox"
-	"github.com/basuotian/containerd/v2/internal/cri/util"
-	"github.com/basuotian/containerd/v2/pkg/netns"
-	"github.com/basuotian/containerd/v2/pkg/tracing"
+	"github.com/basuotian/containerd/core/leases"
+	sb "github.com/basuotian/containerd/core/sandbox"
+	"github.com/basuotian/containerd/internal/cri/annotations"
+	"github.com/basuotian/containerd/internal/cri/bandwidth"
+	criconfig "github.com/basuotian/containerd/internal/cri/config"
+	"github.com/basuotian/containerd/internal/cri/server/podsandbox"
+	sandboxstore "github.com/basuotian/containerd/internal/cri/store/sandbox"
+	"github.com/basuotian/containerd/internal/cri/util"
+	"github.com/basuotian/containerd/pkg/netns"
+	"github.com/basuotian/containerd/pkg/tracing"
 )
 
 func init() {

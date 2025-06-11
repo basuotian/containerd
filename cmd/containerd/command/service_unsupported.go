@@ -19,7 +19,7 @@
 package command
 
 import (
-	"github.com/basuotian/containerd/v2/cmd/containerd/server"
+	"github.com/basuotian/containerd/cmd/containerd/server"
 	"github.com/urfave/cli/v2"
 )
 

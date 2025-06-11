@@ -19,7 +19,7 @@ package restart
 import (
 	"testing"
 
-	containerd "github.com/basuotian/containerd/v2/client"
+	containerd "github.com/basuotian/containerd/client"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -23,7 +23,7 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/basuotian/containerd/v2/pkg/sys"
+	"github.com/basuotian/containerd/pkg/sys"
 
 	"golang.org/x/sys/unix"
 )

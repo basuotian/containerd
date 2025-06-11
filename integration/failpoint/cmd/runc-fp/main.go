@@ -27,7 +27,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/basuotian/containerd/v2/pkg/oci"
+	"github.com/basuotian/containerd/pkg/oci"
 )
 
 const (

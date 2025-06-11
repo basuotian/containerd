@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	containerd "github.com/basuotian/containerd/v2/client"
-	"github.com/basuotian/containerd/v2/pkg/cio"
-	cioutil "github.com/basuotian/containerd/v2/pkg/ioutil"
+	containerd "github.com/basuotian/containerd/client"
+	"github.com/basuotian/containerd/pkg/cio"
+	cioutil "github.com/basuotian/containerd/pkg/ioutil"
 	"github.com/stretchr/testify/assert"
 )
 

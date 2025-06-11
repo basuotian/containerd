@@ -30,9 +30,9 @@ import (
 	"github.com/containerd/typeurl/v2"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	containerstore "github.com/basuotian/containerd/v2/internal/cri/store/container"
-	"github.com/basuotian/containerd/v2/internal/cri/store/stats"
-	"github.com/basuotian/containerd/v2/pkg/protobuf"
+	containerstore "github.com/basuotian/containerd/internal/cri/store/container"
+	"github.com/basuotian/containerd/internal/cri/store/stats"
+	"github.com/basuotian/containerd/pkg/protobuf"
 	"github.com/containerd/containerd/api/services/tasks/v1"
 	"github.com/containerd/containerd/api/types"
 	"github.com/containerd/errdefs"

@@ -20,9 +20,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/basuotian/containerd/v2/core/snapshots"
-	"github.com/basuotian/containerd/v2/core/snapshots/testsuite"
-	"github.com/basuotian/containerd/v2/pkg/testutil"
+	"github.com/basuotian/containerd/core/snapshots"
+	"github.com/basuotian/containerd/core/snapshots/testsuite"
+	"github.com/basuotian/containerd/pkg/testutil"
 )
 
 func newSnapshotter(t *testing.T) func(ctx context.Context, root string) (snapshots.Snapshotter, func() error, error) {

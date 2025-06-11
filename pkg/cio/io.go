@@ -26,7 +26,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/basuotian/containerd/v2/defaults"
+	"github.com/basuotian/containerd/defaults"
 )
 
 var bufPool = sync.Pool{

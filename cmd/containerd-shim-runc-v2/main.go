@@ -21,9 +21,9 @@ package main
 import (
 	"context"
 
-	"github.com/basuotian/containerd/v2/cmd/containerd-shim-runc-v2/manager"
-	_ "github.com/basuotian/containerd/v2/cmd/containerd-shim-runc-v2/task/plugin"
-	"github.com/basuotian/containerd/v2/pkg/shim"
+	"github.com/basuotian/containerd/cmd/containerd-shim-runc-v2/manager"
+	_ "github.com/basuotian/containerd/cmd/containerd-shim-runc-v2/task/plugin"
+	"github.com/basuotian/containerd/pkg/shim"
 )
 
 func main() {

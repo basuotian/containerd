@@ -18,4 +18,4 @@
 
 package builtins
 
-import _ "github.com/basuotian/containerd/v2/plugins/snapshots/btrfs/plugin"
+import _ "github.com/basuotian/containerd/plugins/snapshots/btrfs/plugin"

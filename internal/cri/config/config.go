@@ -30,11 +30,11 @@ import (
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 
 	runhcsoptions "github.com/Microsoft/hcsshim/cmd/containerd-shim-runhcs-v1/options"
-	"github.com/basuotian/containerd/v2/internal/cri/annotations"
-	"github.com/basuotian/containerd/v2/internal/cri/opts"
-	streaming "github.com/basuotian/containerd/v2/internal/cri/streamingserver"
-	"github.com/basuotian/containerd/v2/pkg/deprecation"
-	"github.com/basuotian/containerd/v2/plugins"
+	"github.com/basuotian/containerd/internal/cri/annotations"
+	"github.com/basuotian/containerd/internal/cri/opts"
+	streaming "github.com/basuotian/containerd/internal/cri/streamingserver"
+	"github.com/basuotian/containerd/pkg/deprecation"
+	"github.com/basuotian/containerd/plugins"
 	runcoptions "github.com/containerd/containerd/api/types/runc/options"
 	runtimeoptions "github.com/containerd/containerd/api/types/runtimeoptions/v1"
 )

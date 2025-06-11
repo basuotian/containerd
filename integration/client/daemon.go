@@ -30,7 +30,7 @@ import (
 
 	"github.com/containerd/plugin"
 
-	. "github.com/basuotian/containerd/v2/client"
+	. "github.com/basuotian/containerd/client"
 )
 
 type daemon struct {

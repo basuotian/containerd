@@ -25,12 +25,12 @@ import (
 
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	"github.com/basuotian/containerd/v2/core/containers"
-	criconfig "github.com/basuotian/containerd/v2/internal/cri/config"
-	containerstore "github.com/basuotian/containerd/v2/internal/cri/store/container"
-	"github.com/basuotian/containerd/v2/pkg/oci"
-	"github.com/basuotian/containerd/v2/pkg/protobuf/types"
-	"github.com/basuotian/containerd/v2/plugins"
+	"github.com/basuotian/containerd/core/containers"
+	criconfig "github.com/basuotian/containerd/internal/cri/config"
+	containerstore "github.com/basuotian/containerd/internal/cri/store/container"
+	"github.com/basuotian/containerd/pkg/oci"
+	"github.com/basuotian/containerd/pkg/protobuf/types"
+	"github.com/basuotian/containerd/plugins"
 	runcoptions "github.com/containerd/containerd/api/types/runc/options"
 	"github.com/containerd/typeurl/v2"
 

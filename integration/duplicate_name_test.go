@@ -19,7 +19,7 @@ package integration
 import (
 	"testing"
 
-	"github.com/basuotian/containerd/v2/integration/images"
+	"github.com/basuotian/containerd/integration/images"
 	"github.com/stretchr/testify/require"
 )
 

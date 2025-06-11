@@ -19,10 +19,10 @@ package server
 import (
 	"context"
 
-	"github.com/basuotian/containerd/v2/version"
+	"github.com/basuotian/containerd/version"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	"github.com/basuotian/containerd/v2/internal/cri/constants"
+	"github.com/basuotian/containerd/internal/cri/constants"
 )
 
 const (

@@ -23,9 +23,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/basuotian/containerd/v2/core/containers"
-	"github.com/basuotian/containerd/v2/pkg/cap"
-	"github.com/basuotian/containerd/v2/pkg/testutil"
+	"github.com/basuotian/containerd/core/containers"
+	"github.com/basuotian/containerd/pkg/cap"
+	"github.com/basuotian/containerd/pkg/testutil"
 	"github.com/containerd/continuity/fs/fstest"
 	"github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/stretchr/testify/assert"

@@ -21,8 +21,8 @@ package opts
 import (
 	"context"
 
-	"github.com/basuotian/containerd/v2/core/containers"
-	"github.com/basuotian/containerd/v2/pkg/oci"
+	"github.com/basuotian/containerd/core/containers"
+	"github.com/basuotian/containerd/pkg/oci"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 )
 

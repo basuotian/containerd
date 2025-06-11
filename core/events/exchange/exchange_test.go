@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/basuotian/containerd/v2/core/events"
-	"github.com/basuotian/containerd/v2/pkg/namespaces"
-	"github.com/basuotian/containerd/v2/pkg/protobuf"
+	"github.com/basuotian/containerd/core/events"
+	"github.com/basuotian/containerd/pkg/namespaces"
+	"github.com/basuotian/containerd/pkg/protobuf"
 	eventstypes "github.com/containerd/containerd/api/events"
 	"github.com/containerd/errdefs"
 	"github.com/containerd/typeurl/v2"

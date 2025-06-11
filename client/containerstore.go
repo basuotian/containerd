@@ -27,9 +27,9 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/basuotian/containerd/v2/core/containers"
-	"github.com/basuotian/containerd/v2/pkg/protobuf"
-	ptypes "github.com/basuotian/containerd/v2/pkg/protobuf/types"
+	"github.com/basuotian/containerd/core/containers"
+	"github.com/basuotian/containerd/pkg/protobuf"
+	ptypes "github.com/basuotian/containerd/pkg/protobuf/types"
 )
 
 type remoteContainers struct {

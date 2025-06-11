@@ -25,7 +25,7 @@ import (
 	"github.com/containerd/errdefs/pkg/errgrpc"
 	"github.com/containerd/log"
 
-	containerd "github.com/basuotian/containerd/v2/client"
+	containerd "github.com/basuotian/containerd/client"
 )
 
 func (c *Controller) Shutdown(ctx context.Context, sandboxID string) error {

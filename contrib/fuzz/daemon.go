@@ -21,11 +21,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/basuotian/containerd/v2/cmd/containerd/server"
-	"github.com/basuotian/containerd/v2/cmd/containerd/server/config"
-	"github.com/basuotian/containerd/v2/defaults"
-	"github.com/basuotian/containerd/v2/pkg/sys"
-	"github.com/basuotian/containerd/v2/version"
+	"github.com/basuotian/containerd/cmd/containerd/server"
+	"github.com/basuotian/containerd/cmd/containerd/server/config"
+	"github.com/basuotian/containerd/defaults"
+	"github.com/basuotian/containerd/pkg/sys"
+	"github.com/basuotian/containerd/version"
 	"github.com/containerd/log"
 )
 

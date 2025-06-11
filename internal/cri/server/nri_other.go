@@ -22,7 +22,7 @@ import (
 	"context"
 	"time"
 
-	cstore "github.com/basuotian/containerd/v2/internal/cri/store/container"
+	cstore "github.com/basuotian/containerd/internal/cri/store/container"
 	cri "k8s.io/cri-api/pkg/apis/runtime/v1"
 )
 

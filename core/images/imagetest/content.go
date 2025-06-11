@@ -24,9 +24,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/basuotian/containerd/v2/core/content"
-	"github.com/basuotian/containerd/v2/core/images"
-	"github.com/basuotian/containerd/v2/plugins/content/local"
+	"github.com/basuotian/containerd/core/content"
+	"github.com/basuotian/containerd/core/images"
+	"github.com/basuotian/containerd/plugins/content/local"
 	"github.com/opencontainers/go-digest"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )

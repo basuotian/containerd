@@ -25,9 +25,9 @@ import (
 	"github.com/containerd/typeurl/v2"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 
-	"github.com/basuotian/containerd/v2/core/diff"
-	"github.com/basuotian/containerd/v2/core/mount"
-	"github.com/basuotian/containerd/v2/pkg/oci"
+	"github.com/basuotian/containerd/core/diff"
+	"github.com/basuotian/containerd/core/mount"
+	"github.com/basuotian/containerd/pkg/oci"
 )
 
 type service struct {

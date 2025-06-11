@@ -23,9 +23,9 @@ import (
 	runtimespec "github.com/opencontainers/runtime-spec/specs-go"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	criconfig "github.com/basuotian/containerd/v2/internal/cri/config"
-	"github.com/basuotian/containerd/v2/internal/cri/opts"
-	"github.com/basuotian/containerd/v2/internal/cri/util"
+	criconfig "github.com/basuotian/containerd/internal/cri/config"
+	"github.com/basuotian/containerd/internal/cri/opts"
+	"github.com/basuotian/containerd/internal/cri/util"
 )
 
 // updateOCIResource updates container resource limit.

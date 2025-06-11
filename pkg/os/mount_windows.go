@@ -19,7 +19,7 @@ package os
 import (
 	"errors"
 
-	"github.com/basuotian/containerd/v2/core/mount"
+	"github.com/basuotian/containerd/core/mount"
 )
 
 // Mount is an empty stub on Windows.

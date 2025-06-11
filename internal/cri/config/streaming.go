@@ -27,7 +27,7 @@ import (
 	k8snet "k8s.io/apimachinery/pkg/util/net"
 	k8scert "k8s.io/client-go/util/cert"
 
-	streaming "github.com/basuotian/containerd/v2/internal/cri/streamingserver"
+	streaming "github.com/basuotian/containerd/internal/cri/streamingserver"
 )
 
 type streamListenerMode int

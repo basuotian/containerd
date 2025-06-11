@@ -27,8 +27,8 @@ import (
 	"github.com/moby/sys/userns"
 	"golang.org/x/sys/unix"
 
-	"github.com/basuotian/containerd/v2/core/mount"
-	kernel "github.com/basuotian/containerd/v2/pkg/kernelversion"
+	"github.com/basuotian/containerd/core/mount"
+	kernel "github.com/basuotian/containerd/pkg/kernelversion"
 	"github.com/containerd/continuity/fs"
 	"github.com/containerd/log"
 )

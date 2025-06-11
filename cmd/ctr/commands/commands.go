@@ -23,8 +23,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/basuotian/containerd/v2/defaults"
-	"github.com/basuotian/containerd/v2/pkg/atomicfile"
+	"github.com/basuotian/containerd/defaults"
+	"github.com/basuotian/containerd/pkg/atomicfile"
 
 	"github.com/urfave/cli/v2"
 )

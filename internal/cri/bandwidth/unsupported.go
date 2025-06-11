@@ -35,7 +35,7 @@ limitations under the License.
 package bandwidth
 
 import (
-	resource "github.com/basuotian/containerd/v2/internal/cri/resourcequantity"
+	resource "github.com/basuotian/containerd/internal/cri/resourcequantity"
 	"github.com/containerd/errdefs"
 )
 

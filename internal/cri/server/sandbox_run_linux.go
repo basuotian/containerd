@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"syscall"
 
-	"github.com/basuotian/containerd/v2/pkg/netns"
-	"github.com/basuotian/containerd/v2/pkg/sys"
+	"github.com/basuotian/containerd/pkg/netns"
+	"github.com/basuotian/containerd/pkg/sys"
 
 	"github.com/containernetworking/plugins/pkg/ns"
 	"github.com/vishvananda/netlink"

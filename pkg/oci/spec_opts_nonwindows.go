@@ -21,7 +21,7 @@ package oci
 import (
 	"context"
 
-	"github.com/basuotian/containerd/v2/core/containers"
+	"github.com/basuotian/containerd/core/containers"
 )
 
 // WithDefaultPathEnv sets the $PATH environment variable to the

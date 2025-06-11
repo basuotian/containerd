@@ -23,8 +23,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/basuotian/containerd/v2/core/mount"
-	"github.com/basuotian/containerd/v2/pkg/testutil"
+	"github.com/basuotian/containerd/core/mount"
+	"github.com/basuotian/containerd/pkg/testutil"
 	"github.com/docker/go-units"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/sys/unix"

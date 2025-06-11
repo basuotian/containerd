@@ -20,10 +20,10 @@ import (
 	"runtime"
 	"testing"
 
-	. "github.com/basuotian/containerd/v2/client"
-	"github.com/basuotian/containerd/v2/core/images"
-	"github.com/basuotian/containerd/v2/core/leases"
-	imagelist "github.com/basuotian/containerd/v2/integration/images"
+	. "github.com/basuotian/containerd/client"
+	"github.com/basuotian/containerd/core/images"
+	"github.com/basuotian/containerd/core/leases"
+	imagelist "github.com/basuotian/containerd/integration/images"
 	"github.com/containerd/errdefs"
 	"github.com/opencontainers/image-spec/identity"
 )

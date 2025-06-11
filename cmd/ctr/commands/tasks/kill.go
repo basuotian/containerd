@@ -21,8 +21,8 @@ import (
 	"errors"
 	"fmt"
 
-	containerd "github.com/basuotian/containerd/v2/client"
-	"github.com/basuotian/containerd/v2/cmd/ctr/commands"
+	containerd "github.com/basuotian/containerd/client"
+	"github.com/basuotian/containerd/cmd/ctr/commands"
 	gocni "github.com/containerd/go-cni"
 	"github.com/containerd/log"
 	"github.com/containerd/typeurl/v2"

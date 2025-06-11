@@ -19,7 +19,7 @@
 package namespaces
 
 import (
-	"github.com/basuotian/containerd/v2/pkg/namespaces"
+	"github.com/basuotian/containerd/pkg/namespaces"
 	"github.com/urfave/cli/v2"
 )
 

@@ -25,9 +25,9 @@ import (
 	"strings"
 	"testing"
 
-	containerd "github.com/basuotian/containerd/v2/client"
-	"github.com/basuotian/containerd/v2/integration/images"
-	criopts "github.com/basuotian/containerd/v2/internal/cri/opts"
+	containerd "github.com/basuotian/containerd/client"
+	"github.com/basuotian/containerd/integration/images"
+	criopts "github.com/basuotian/containerd/internal/cri/opts"
 	"github.com/containerd/cgroups/v3"
 	"github.com/containerd/cgroups/v3/cgroup1"
 	cgroupsv2 "github.com/containerd/cgroups/v3/cgroup2"

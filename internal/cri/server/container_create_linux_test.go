@@ -24,9 +24,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/basuotian/containerd/v2/core/containers"
-	"github.com/basuotian/containerd/v2/core/mount"
-	"github.com/basuotian/containerd/v2/pkg/oci"
+	"github.com/basuotian/containerd/core/containers"
+	"github.com/basuotian/containerd/core/mount"
+	"github.com/basuotian/containerd/pkg/oci"
 	"github.com/containerd/platforms"
 	imagespec "github.com/opencontainers/image-spec/specs-go/v1"
 	runtimespec "github.com/opencontainers/runtime-spec/specs-go"
@@ -36,14 +36,14 @@ import (
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 	"tags.cncf.io/container-device-interface/pkg/cdi"
 
-	"github.com/basuotian/containerd/v2/internal/cri/annotations"
-	"github.com/basuotian/containerd/v2/internal/cri/config"
-	"github.com/basuotian/containerd/v2/internal/cri/opts"
-	customopts "github.com/basuotian/containerd/v2/internal/cri/opts"
-	"github.com/basuotian/containerd/v2/internal/cri/util"
-	ctrdutil "github.com/basuotian/containerd/v2/internal/cri/util"
-	"github.com/basuotian/containerd/v2/pkg/cap"
-	ostesting "github.com/basuotian/containerd/v2/pkg/os/testing"
+	"github.com/basuotian/containerd/internal/cri/annotations"
+	"github.com/basuotian/containerd/internal/cri/config"
+	"github.com/basuotian/containerd/internal/cri/opts"
+	customopts "github.com/basuotian/containerd/internal/cri/opts"
+	"github.com/basuotian/containerd/internal/cri/util"
+	ctrdutil "github.com/basuotian/containerd/internal/cri/util"
+	"github.com/basuotian/containerd/pkg/cap"
+	ostesting "github.com/basuotian/containerd/pkg/os/testing"
 )
 
 func getCreateContainerTestData() (*runtime.ContainerConfig, *runtime.PodSandboxConfig,

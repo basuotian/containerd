@@ -20,10 +20,10 @@ import (
 	"context"
 	"testing"
 
-	. "github.com/basuotian/containerd/v2/client"
-	"github.com/basuotian/containerd/v2/core/snapshots"
-	"github.com/basuotian/containerd/v2/core/snapshots/testsuite"
-	"github.com/basuotian/containerd/v2/defaults"
+	. "github.com/basuotian/containerd/client"
+	"github.com/basuotian/containerd/core/snapshots"
+	"github.com/basuotian/containerd/core/snapshots/testsuite"
+	"github.com/basuotian/containerd/defaults"
 )
 
 func newSnapshotter(ctx context.Context, root string) (snapshots.Snapshotter, func() error, error) {

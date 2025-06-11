@@ -20,15 +20,15 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/basuotian/containerd/v2/pkg/oci"
+	"github.com/basuotian/containerd/pkg/oci"
 	imagespec "github.com/opencontainers/image-spec/specs-go/v1"
 	runtimespec "github.com/opencontainers/runtime-spec/specs-go"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	"github.com/basuotian/containerd/v2/core/snapshots"
-	"github.com/basuotian/containerd/v2/internal/cri/annotations"
-	customopts "github.com/basuotian/containerd/v2/internal/cri/opts"
-	"github.com/basuotian/containerd/v2/internal/cri/util"
+	"github.com/basuotian/containerd/core/snapshots"
+	"github.com/basuotian/containerd/internal/cri/annotations"
+	customopts "github.com/basuotian/containerd/internal/cri/opts"
+	"github.com/basuotian/containerd/internal/cri/util"
 )
 
 func (c *Controller) sandboxContainerSpec(id string, config *runtime.PodSandboxConfig,

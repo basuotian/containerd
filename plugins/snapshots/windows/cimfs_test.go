@@ -23,7 +23,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/basuotian/containerd/v2/core/mount"
+	"github.com/basuotian/containerd/core/mount"
 )
 
 func TestGetOptionByPrefix(t *testing.T) {

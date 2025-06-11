@@ -33,14 +33,14 @@ import (
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/urfave/cli/v2"
 
-	containerd "github.com/basuotian/containerd/v2/client"
-	"github.com/basuotian/containerd/v2/cmd/ctr/commands"
-	"github.com/basuotian/containerd/v2/core/content"
-	"github.com/basuotian/containerd/v2/core/diff"
-	"github.com/basuotian/containerd/v2/core/mount"
-	"github.com/basuotian/containerd/v2/core/snapshots"
-	"github.com/basuotian/containerd/v2/pkg/progress"
-	"github.com/basuotian/containerd/v2/pkg/rootfs"
+	containerd "github.com/basuotian/containerd/client"
+	"github.com/basuotian/containerd/cmd/ctr/commands"
+	"github.com/basuotian/containerd/core/content"
+	"github.com/basuotian/containerd/core/diff"
+	"github.com/basuotian/containerd/core/mount"
+	"github.com/basuotian/containerd/core/snapshots"
+	"github.com/basuotian/containerd/pkg/progress"
+	"github.com/basuotian/containerd/pkg/rootfs"
 )
 
 // Command is the cli command for managing snapshots

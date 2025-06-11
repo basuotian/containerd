@@ -19,7 +19,7 @@ package opt
 import (
 	"path/filepath"
 
-	"github.com/basuotian/containerd/v2/defaults"
+	"github.com/basuotian/containerd/defaults"
 )
 
 var defaultPath = filepath.Join(defaults.DefaultRootDir, "opt")

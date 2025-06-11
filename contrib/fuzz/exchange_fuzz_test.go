@@ -21,9 +21,9 @@ import (
 	"testing"
 
 	fuzz "github.com/AdaLogics/go-fuzz-headers"
-	"github.com/basuotian/containerd/v2/core/events"
-	"github.com/basuotian/containerd/v2/core/events/exchange"
-	"github.com/basuotian/containerd/v2/pkg/namespaces"
+	"github.com/basuotian/containerd/core/events"
+	"github.com/basuotian/containerd/core/events/exchange"
+	"github.com/basuotian/containerd/pkg/namespaces"
 	eventstypes "github.com/containerd/containerd/api/events"
 )
 

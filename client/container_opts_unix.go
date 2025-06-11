@@ -25,9 +25,9 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"github.com/basuotian/containerd/v2/core/containers"
-	"github.com/basuotian/containerd/v2/core/mount"
-	"github.com/basuotian/containerd/v2/internal/userns"
+	"github.com/basuotian/containerd/core/containers"
+	"github.com/basuotian/containerd/core/mount"
+	"github.com/basuotian/containerd/internal/userns"
 
 	"github.com/containerd/errdefs"
 	"github.com/opencontainers/image-spec/identity"

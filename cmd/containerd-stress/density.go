@@ -29,10 +29,10 @@ import (
 	"strings"
 	"syscall"
 
-	containerd "github.com/basuotian/containerd/v2/client"
-	"github.com/basuotian/containerd/v2/pkg/cio"
-	"github.com/basuotian/containerd/v2/pkg/namespaces"
-	"github.com/basuotian/containerd/v2/pkg/oci"
+	containerd "github.com/basuotian/containerd/client"
+	"github.com/basuotian/containerd/pkg/cio"
+	"github.com/basuotian/containerd/pkg/namespaces"
+	"github.com/basuotian/containerd/pkg/oci"
 	"github.com/containerd/log"
 	"github.com/urfave/cli/v2"
 )

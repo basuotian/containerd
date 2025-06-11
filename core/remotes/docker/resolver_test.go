@@ -38,9 +38,9 @@ import (
 	specs "github.com/opencontainers/image-spec/specs-go"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 
-	"github.com/basuotian/containerd/v2/core/remotes"
-	"github.com/basuotian/containerd/v2/core/remotes/docker/auth"
-	remoteerrors "github.com/basuotian/containerd/v2/core/remotes/errors"
+	"github.com/basuotian/containerd/core/remotes"
+	"github.com/basuotian/containerd/core/remotes/docker/auth"
+	remoteerrors "github.com/basuotian/containerd/core/remotes/errors"
 )
 
 func TestHTTPResolver(t *testing.T) {

@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/basuotian/containerd/v2/cmd/containerd/command"
+	"github.com/basuotian/containerd/cmd/containerd/command"
 
-	_ "github.com/basuotian/containerd/v2/cmd/containerd/builtins"
+	_ "github.com/basuotian/containerd/cmd/containerd/builtins"
 )
 
 func main() {

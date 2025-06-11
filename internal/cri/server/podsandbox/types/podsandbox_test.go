@@ -24,7 +24,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/basuotian/containerd/v2/internal/cri/store/sandbox"
+	"github.com/basuotian/containerd/internal/cri/store/sandbox"
 )
 
 func Test_PodSandbox(t *testing.T) {

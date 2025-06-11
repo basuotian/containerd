@@ -25,8 +25,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/basuotian/containerd/v2/core/content"
-	"github.com/basuotian/containerd/v2/core/images"
+	"github.com/basuotian/containerd/core/content"
+	"github.com/basuotian/containerd/core/images"
 	"github.com/containerd/platforms"
 	"github.com/opencontainers/go-digest"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"

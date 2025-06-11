@@ -21,7 +21,7 @@ import "runtime"
 var (
 	Name = "containerd"
 	// Package is filled at linking time
-	Package = "github.com/basuotian/containerd/v2"
+	Package = "github.com/basuotian/containerd"
 
 	// Version holds the complete version number. Filled in at linking time.
 	Version = "2.1.0+unknown"

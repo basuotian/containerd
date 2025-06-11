@@ -22,11 +22,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/basuotian/containerd/v2/pkg/tracing"
+	"github.com/basuotian/containerd/pkg/tracing"
 	"github.com/containerd/log"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	sandboxstore "github.com/basuotian/containerd/v2/internal/cri/store/sandbox"
+	sandboxstore "github.com/basuotian/containerd/internal/cri/store/sandbox"
 	"github.com/containerd/errdefs"
 )
 

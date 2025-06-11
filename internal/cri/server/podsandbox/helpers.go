@@ -24,13 +24,13 @@ import (
 	"github.com/containerd/typeurl/v2"
 	runtimespec "github.com/opencontainers/runtime-spec/specs-go"
 
-	containerd "github.com/basuotian/containerd/v2/client"
-	"github.com/basuotian/containerd/v2/core/containers"
-	crilabels "github.com/basuotian/containerd/v2/internal/cri/labels"
-	imagestore "github.com/basuotian/containerd/v2/internal/cri/store/image"
-	sandboxstore "github.com/basuotian/containerd/v2/internal/cri/store/sandbox"
-	ctrdutil "github.com/basuotian/containerd/v2/internal/cri/util"
-	"github.com/basuotian/containerd/v2/pkg/oci"
+	containerd "github.com/basuotian/containerd/client"
+	"github.com/basuotian/containerd/core/containers"
+	crilabels "github.com/basuotian/containerd/internal/cri/labels"
+	imagestore "github.com/basuotian/containerd/internal/cri/store/image"
+	sandboxstore "github.com/basuotian/containerd/internal/cri/store/sandbox"
+	ctrdutil "github.com/basuotian/containerd/internal/cri/util"
+	"github.com/basuotian/containerd/pkg/oci"
 )
 
 const (

@@ -41,7 +41,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/basuotian/containerd/v2/internal/cri/clock"
+	"github.com/basuotian/containerd/internal/cri/clock"
 )
 
 var (

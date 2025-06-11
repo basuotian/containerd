@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/basuotian/containerd/v2/internal/randutil"
+	"github.com/basuotian/containerd/internal/randutil"
 	"github.com/containerd/errdefs"
 	"github.com/containerd/log"
 	"github.com/opencontainers/go-digest"

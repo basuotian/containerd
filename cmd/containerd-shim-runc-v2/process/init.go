@@ -30,9 +30,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/basuotian/containerd/v2/core/mount"
-	google_protobuf "github.com/basuotian/containerd/v2/pkg/protobuf/types"
-	"github.com/basuotian/containerd/v2/pkg/stdio"
+	"github.com/basuotian/containerd/core/mount"
+	google_protobuf "github.com/basuotian/containerd/pkg/protobuf/types"
+	"github.com/basuotian/containerd/pkg/stdio"
 	"github.com/containerd/console"
 	"github.com/containerd/fifo"
 	runc "github.com/containerd/go-runc"

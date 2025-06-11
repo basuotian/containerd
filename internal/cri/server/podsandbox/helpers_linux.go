@@ -35,12 +35,12 @@ import (
 	"golang.org/x/sys/unix"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	containerd "github.com/basuotian/containerd/v2/client"
-	"github.com/basuotian/containerd/v2/core/mount"
-	"github.com/basuotian/containerd/v2/core/snapshots"
-	"github.com/basuotian/containerd/v2/internal/cri/seutil"
-	"github.com/basuotian/containerd/v2/pkg/seccomp"
-	"github.com/basuotian/containerd/v2/pkg/sys"
+	containerd "github.com/basuotian/containerd/client"
+	"github.com/basuotian/containerd/core/mount"
+	"github.com/basuotian/containerd/core/snapshots"
+	"github.com/basuotian/containerd/internal/cri/seutil"
+	"github.com/basuotian/containerd/pkg/seccomp"
+	"github.com/basuotian/containerd/pkg/sys"
 )
 
 const (

@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/basuotian/containerd/v2/core/streaming"
+	"github.com/basuotian/containerd/core/streaming"
 	transferapi "github.com/containerd/containerd/api/types/transfer"
 	"github.com/containerd/typeurl/v2"
 )

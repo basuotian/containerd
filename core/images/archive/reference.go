@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/basuotian/containerd/v2/pkg/reference"
+	"github.com/basuotian/containerd/pkg/reference"
 	distref "github.com/distribution/reference"
 	"github.com/opencontainers/go-digest"
 )

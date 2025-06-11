@@ -32,11 +32,11 @@ import (
 	"github.com/containerd/continuity/fs/fstest"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/basuotian/containerd/v2/core/mount"
-	"github.com/basuotian/containerd/v2/core/snapshots"
-	"github.com/basuotian/containerd/v2/plugins/snapshots/devmapper"
-	"github.com/basuotian/containerd/v2/plugins/snapshots/native"
-	"github.com/basuotian/containerd/v2/plugins/snapshots/overlay"
+	"github.com/basuotian/containerd/core/mount"
+	"github.com/basuotian/containerd/core/snapshots"
+	"github.com/basuotian/containerd/plugins/snapshots/devmapper"
+	"github.com/basuotian/containerd/plugins/snapshots/native"
+	"github.com/basuotian/containerd/plugins/snapshots/overlay"
 	"github.com/containerd/log"
 )
 

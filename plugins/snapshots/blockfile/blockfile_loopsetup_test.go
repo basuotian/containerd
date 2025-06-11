@@ -25,7 +25,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/basuotian/containerd/v2/core/mount"
+	"github.com/basuotian/containerd/core/mount"
 )
 
 func setupSnapshotter(t *testing.T) ([]Opt, error) {

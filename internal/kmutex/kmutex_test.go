@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/basuotian/containerd/v2/internal/randutil"
+	"github.com/basuotian/containerd/internal/randutil"
 	"github.com/stretchr/testify/assert"
 )
 

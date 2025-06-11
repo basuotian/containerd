@@ -23,9 +23,9 @@ import (
 	"syscall"
 	"time"
 
-	containerd "github.com/basuotian/containerd/v2/client"
-	"github.com/basuotian/containerd/v2/pkg/cio"
-	"github.com/basuotian/containerd/v2/pkg/oci"
+	containerd "github.com/basuotian/containerd/client"
+	"github.com/basuotian/containerd/pkg/cio"
+	"github.com/basuotian/containerd/pkg/oci"
 	"github.com/containerd/log"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 )

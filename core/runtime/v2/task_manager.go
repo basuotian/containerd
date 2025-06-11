@@ -36,10 +36,10 @@ import (
 
 	apitypes "github.com/containerd/containerd/api/types"
 
-	"github.com/basuotian/containerd/v2/core/runtime"
-	"github.com/basuotian/containerd/v2/pkg/protobuf/proto"
-	"github.com/basuotian/containerd/v2/pkg/timeout"
-	"github.com/basuotian/containerd/v2/plugins"
+	"github.com/basuotian/containerd/core/runtime"
+	"github.com/basuotian/containerd/pkg/protobuf/proto"
+	"github.com/basuotian/containerd/pkg/timeout"
+	"github.com/basuotian/containerd/plugins"
 )
 
 // TaskConfig for the runtime task manager

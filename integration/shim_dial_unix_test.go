@@ -30,7 +30,7 @@ import (
 	"testing"
 	"time"
 
-	v2shimcli "github.com/basuotian/containerd/v2/pkg/shim"
+	v2shimcli "github.com/basuotian/containerd/pkg/shim"
 	"github.com/containerd/ttrpc"
 )
 

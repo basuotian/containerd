@@ -29,7 +29,7 @@ import (
 	"github.com/containerd/typeurl/v2"
 	"google.golang.org/grpc"
 
-	"github.com/basuotian/containerd/v2/core/streaming"
+	"github.com/basuotian/containerd/core/streaming"
 )
 
 // NewStreamCreator returns a new stream creator which can communicate over a GRPC

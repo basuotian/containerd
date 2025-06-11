@@ -21,9 +21,9 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/basuotian/containerd/v2/cmd/ctr/commands"
-	"github.com/basuotian/containerd/v2/core/containers"
-	"github.com/basuotian/containerd/v2/pkg/oci"
+	"github.com/basuotian/containerd/cmd/ctr/commands"
+	"github.com/basuotian/containerd/core/containers"
+	"github.com/basuotian/containerd/pkg/oci"
 	"github.com/containerd/platforms"
 )
 

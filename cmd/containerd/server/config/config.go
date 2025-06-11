@@ -36,7 +36,7 @@ import (
 	"dario.cat/mergo"
 	"github.com/pelletier/go-toml/v2"
 
-	"github.com/basuotian/containerd/v2/version"
+	"github.com/basuotian/containerd/version"
 	"github.com/containerd/errdefs"
 	"github.com/containerd/log"
 	"github.com/containerd/plugin"

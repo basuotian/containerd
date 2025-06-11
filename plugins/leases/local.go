@@ -19,10 +19,10 @@ package plugin
 import (
 	"context"
 
-	"github.com/basuotian/containerd/v2/core/leases"
-	"github.com/basuotian/containerd/v2/core/metadata"
-	"github.com/basuotian/containerd/v2/pkg/gc"
-	"github.com/basuotian/containerd/v2/plugins"
+	"github.com/basuotian/containerd/core/leases"
+	"github.com/basuotian/containerd/core/metadata"
+	"github.com/basuotian/containerd/pkg/gc"
+	"github.com/basuotian/containerd/plugins"
 	"github.com/containerd/plugin"
 	"github.com/containerd/plugin/registry"
 )

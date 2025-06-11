@@ -24,8 +24,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/basuotian/containerd/v2/core/containers"
-	"github.com/basuotian/containerd/v2/pkg/oci"
+	"github.com/basuotian/containerd/core/containers"
+	"github.com/basuotian/containerd/pkg/oci"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 )
 

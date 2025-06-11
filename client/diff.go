@@ -17,8 +17,8 @@
 package client
 
 import (
-	"github.com/basuotian/containerd/v2/core/diff"
-	"github.com/basuotian/containerd/v2/core/diff/proxy"
+	"github.com/basuotian/containerd/core/diff"
+	"github.com/basuotian/containerd/core/diff/proxy"
 	diffapi "github.com/containerd/containerd/api/services/diff/v1"
 )
 

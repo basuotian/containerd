@@ -18,9 +18,9 @@ package integration
 
 import (
 	// Register for linux platforms
-	_ "github.com/basuotian/containerd/v2/plugins/imageverifier"    // WithInMemoryServices will fail otherwise
-	_ "github.com/basuotian/containerd/v2/plugins/sandbox"          // WithInMemoryServices will fail otherwise
-	_ "github.com/basuotian/containerd/v2/plugins/services/sandbox" // WithInMemoryServices will fail otherwise
-	_ "github.com/basuotian/containerd/v2/plugins/snapshots/overlay/plugin"
-	_ "github.com/basuotian/containerd/v2/plugins/streaming" // WithInMemoryServices will fail otherwise
+	_ "github.com/basuotian/containerd/plugins/imageverifier"    // WithInMemoryServices will fail otherwise
+	_ "github.com/basuotian/containerd/plugins/sandbox"          // WithInMemoryServices will fail otherwise
+	_ "github.com/basuotian/containerd/plugins/services/sandbox" // WithInMemoryServices will fail otherwise
+	_ "github.com/basuotian/containerd/plugins/snapshots/overlay/plugin"
+	_ "github.com/basuotian/containerd/plugins/streaming" // WithInMemoryServices will fail otherwise
 )

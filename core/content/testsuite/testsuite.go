@@ -28,8 +28,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/basuotian/containerd/v2/core/content"
-	"github.com/basuotian/containerd/v2/pkg/testutil"
+	"github.com/basuotian/containerd/core/content"
+	"github.com/basuotian/containerd/pkg/testutil"
 	"github.com/containerd/errdefs"
 	"github.com/containerd/log/logtest"
 	"github.com/opencontainers/go-digest"

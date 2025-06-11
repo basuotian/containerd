@@ -23,10 +23,10 @@ import (
 	"github.com/containerd/errdefs"
 	"github.com/containerd/errdefs/pkg/errgrpc"
 
-	"github.com/basuotian/containerd/v2/core/mount"
-	"github.com/basuotian/containerd/v2/core/snapshots"
-	"github.com/basuotian/containerd/v2/core/snapshots/proxy"
-	ptypes "github.com/basuotian/containerd/v2/pkg/protobuf/types"
+	"github.com/basuotian/containerd/core/mount"
+	"github.com/basuotian/containerd/core/snapshots"
+	"github.com/basuotian/containerd/core/snapshots/proxy"
+	ptypes "github.com/basuotian/containerd/pkg/protobuf/types"
 )
 
 var empty = &ptypes.Empty{}

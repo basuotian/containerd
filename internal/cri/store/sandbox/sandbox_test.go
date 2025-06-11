@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/basuotian/containerd/v2/internal/cri/store/label"
-	"github.com/basuotian/containerd/v2/internal/cri/store/stats"
+	"github.com/basuotian/containerd/internal/cri/store/label"
+	"github.com/basuotian/containerd/internal/cri/store/stats"
 	"github.com/containerd/errdefs"
 
 	assertlib "github.com/stretchr/testify/assert"

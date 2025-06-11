@@ -36,8 +36,8 @@ import (
 	"strconv"
 	"strings"
 
-	containerd "github.com/basuotian/containerd/v2/client"
-	"github.com/basuotian/containerd/v2/core/containers"
+	containerd "github.com/basuotian/containerd/client"
+	"github.com/basuotian/containerd/core/containers"
 	"github.com/containerd/log"
 )
 

@@ -29,7 +29,7 @@ import (
 
 	"github.com/Microsoft/go-winio"
 
-	"github.com/basuotian/containerd/v2/pkg/protobuf/proto"
+	"github.com/basuotian/containerd/pkg/protobuf/proto"
 	"github.com/containerd/log"
 	"github.com/containerd/typeurl/v2"
 )

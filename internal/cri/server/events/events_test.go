@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	testingclock "github.com/basuotian/containerd/v2/internal/cri/clock/testing"
-	"github.com/basuotian/containerd/v2/pkg/protobuf"
+	testingclock "github.com/basuotian/containerd/internal/cri/clock/testing"
+	"github.com/basuotian/containerd/pkg/protobuf"
 	eventtypes "github.com/containerd/containerd/api/events"
 	"github.com/containerd/typeurl/v2"
 	"github.com/google/go-cmp/cmp"

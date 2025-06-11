@@ -24,9 +24,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/basuotian/containerd/v2/core/containers"
-	"github.com/basuotian/containerd/v2/pkg/oci"
-	osinterface "github.com/basuotian/containerd/v2/pkg/os"
+	"github.com/basuotian/containerd/core/containers"
+	"github.com/basuotian/containerd/pkg/oci"
+	osinterface "github.com/basuotian/containerd/pkg/os"
 	runtimespec "github.com/opencontainers/runtime-spec/specs-go"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 )

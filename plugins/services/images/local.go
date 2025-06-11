@@ -29,15 +29,15 @@ import (
 	"github.com/containerd/plugin"
 	"github.com/containerd/plugin/registry"
 
-	"github.com/basuotian/containerd/v2/core/images"
-	"github.com/basuotian/containerd/v2/core/metadata"
-	"github.com/basuotian/containerd/v2/pkg/epoch"
-	"github.com/basuotian/containerd/v2/pkg/gc"
-	"github.com/basuotian/containerd/v2/pkg/oci"
-	ptypes "github.com/basuotian/containerd/v2/pkg/protobuf/types"
-	"github.com/basuotian/containerd/v2/plugins"
-	"github.com/basuotian/containerd/v2/plugins/services"
-	"github.com/basuotian/containerd/v2/plugins/services/warning"
+	"github.com/basuotian/containerd/core/images"
+	"github.com/basuotian/containerd/core/metadata"
+	"github.com/basuotian/containerd/pkg/epoch"
+	"github.com/basuotian/containerd/pkg/gc"
+	"github.com/basuotian/containerd/pkg/oci"
+	ptypes "github.com/basuotian/containerd/pkg/protobuf/types"
+	"github.com/basuotian/containerd/plugins"
+	"github.com/basuotian/containerd/plugins/services"
+	"github.com/basuotian/containerd/plugins/services/warning"
 )
 
 var empty = &ptypes.Empty{}

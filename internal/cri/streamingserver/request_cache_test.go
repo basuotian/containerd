@@ -42,7 +42,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	testingclock "github.com/basuotian/containerd/v2/internal/cri/clock/testing"
+	testingclock "github.com/basuotian/containerd/internal/cri/clock/testing"
 )
 
 func TestInsert(t *testing.T) {

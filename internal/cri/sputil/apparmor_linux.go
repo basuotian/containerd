@@ -26,8 +26,8 @@ import (
 
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	"github.com/basuotian/containerd/v2/contrib/apparmor"
-	"github.com/basuotian/containerd/v2/pkg/oci"
+	"github.com/basuotian/containerd/contrib/apparmor"
+	"github.com/basuotian/containerd/pkg/oci"
 )
 
 func GenerateApparmorSecurityProfile(profilePath string) (*runtime.SecurityProfile, error) {

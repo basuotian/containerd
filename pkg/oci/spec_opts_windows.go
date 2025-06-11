@@ -24,7 +24,7 @@ import (
 	"github.com/opencontainers/runtime-spec/specs-go"
 	"golang.org/x/sys/windows"
 
-	"github.com/basuotian/containerd/v2/core/containers"
+	"github.com/basuotian/containerd/core/containers"
 )
 
 func escapeAndCombineArgs(args []string) string {

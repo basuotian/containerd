@@ -17,8 +17,8 @@
 package nri
 
 import (
-	"github.com/basuotian/containerd/v2/internal/nri"
-	"github.com/basuotian/containerd/v2/plugins"
+	"github.com/basuotian/containerd/internal/nri"
+	"github.com/basuotian/containerd/plugins"
 	"github.com/containerd/plugin"
 	"github.com/containerd/plugin/registry"
 )

@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/basuotian/containerd/v2/core/mount"
-	"github.com/basuotian/containerd/v2/core/snapshots"
+	"github.com/basuotian/containerd/core/mount"
+	"github.com/basuotian/containerd/core/snapshots"
 	"github.com/containerd/log"
 	digest "github.com/opencontainers/go-digest"
 )

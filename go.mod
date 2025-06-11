@@ -1,4 +1,4 @@
-module github.com/basuotian/containerd/v2
+module github.com/basuotian/containerd
 
 go 1.24.3
 

@@ -41,7 +41,7 @@ import (
 	"net/http"
 	"time"
 
-	api "github.com/basuotian/containerd/v2/internal/cri/streamingserver/v1"
+	api "github.com/basuotian/containerd/internal/cri/streamingserver/v1"
 	"github.com/containerd/log"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

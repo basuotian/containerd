@@ -30,7 +30,7 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/basuotian/containerd/v2/pkg/stdio"
+	"github.com/basuotian/containerd/pkg/stdio"
 	"github.com/containerd/console"
 	"github.com/containerd/errdefs"
 	"github.com/containerd/fifo"

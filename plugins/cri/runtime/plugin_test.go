@@ -23,7 +23,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/basuotian/containerd/v2/plugins"
+	"github.com/basuotian/containerd/plugins"
 )
 
 func TestCRIRuntimePluginConfigMigration(t *testing.T) {

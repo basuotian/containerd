@@ -31,11 +31,11 @@ import (
 	"github.com/containerd/plugin"
 	"golang.org/x/sys/unix"
 
-	"github.com/basuotian/containerd/v2/core/mount"
-	"github.com/basuotian/containerd/v2/core/snapshots"
-	"github.com/basuotian/containerd/v2/core/snapshots/storage"
-	"github.com/basuotian/containerd/v2/internal/erofsutils"
-	"github.com/basuotian/containerd/v2/internal/fsverity"
+	"github.com/basuotian/containerd/core/mount"
+	"github.com/basuotian/containerd/core/snapshots"
+	"github.com/basuotian/containerd/core/snapshots/storage"
+	"github.com/basuotian/containerd/internal/erofsutils"
+	"github.com/basuotian/containerd/internal/fsverity"
 )
 
 // SnapshotterConfig is used to configure the erofs snapshotter instance

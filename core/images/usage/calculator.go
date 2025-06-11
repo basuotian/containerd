@@ -21,9 +21,9 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/basuotian/containerd/v2/core/content"
-	"github.com/basuotian/containerd/v2/core/images"
-	"github.com/basuotian/containerd/v2/core/snapshots"
+	"github.com/basuotian/containerd/core/content"
+	"github.com/basuotian/containerd/core/images"
+	"github.com/basuotian/containerd/core/snapshots"
 	"github.com/containerd/errdefs"
 	"github.com/containerd/platforms"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"

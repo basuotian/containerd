@@ -19,7 +19,7 @@ package server
 import (
 	"fmt"
 
-	"github.com/basuotian/containerd/v2/pkg/netns"
+	"github.com/basuotian/containerd/pkg/netns"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 )
 

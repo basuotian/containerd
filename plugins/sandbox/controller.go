@@ -33,13 +33,13 @@ import (
 	runtimeAPI "github.com/containerd/containerd/api/runtime/sandbox/v1"
 	"github.com/containerd/containerd/api/types"
 
-	"github.com/basuotian/containerd/v2/core/events"
-	"github.com/basuotian/containerd/v2/core/events/exchange"
-	"github.com/basuotian/containerd/v2/core/mount"
-	"github.com/basuotian/containerd/v2/core/runtime"
-	v2 "github.com/basuotian/containerd/v2/core/runtime/v2"
-	"github.com/basuotian/containerd/v2/core/sandbox"
-	"github.com/basuotian/containerd/v2/plugins"
+	"github.com/basuotian/containerd/core/events"
+	"github.com/basuotian/containerd/core/events/exchange"
+	"github.com/basuotian/containerd/core/mount"
+	"github.com/basuotian/containerd/core/runtime"
+	v2 "github.com/basuotian/containerd/core/runtime/v2"
+	"github.com/basuotian/containerd/core/sandbox"
+	"github.com/basuotian/containerd/plugins"
 )
 
 func init() {

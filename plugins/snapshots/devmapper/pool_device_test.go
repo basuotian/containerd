@@ -27,9 +27,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/basuotian/containerd/v2/core/mount"
-	"github.com/basuotian/containerd/v2/pkg/testutil"
-	"github.com/basuotian/containerd/v2/plugins/snapshots/devmapper/dmsetup"
+	"github.com/basuotian/containerd/core/mount"
+	"github.com/basuotian/containerd/pkg/testutil"
+	"github.com/basuotian/containerd/plugins/snapshots/devmapper/dmsetup"
 	"github.com/containerd/log"
 	"github.com/docker/go-units"
 	"github.com/stretchr/testify/assert"

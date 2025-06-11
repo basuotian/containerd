@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"syscall"
 
-	"github.com/basuotian/containerd/v2/core/images"
-	"github.com/basuotian/containerd/v2/core/mount"
+	"github.com/basuotian/containerd/core/images"
+	"github.com/basuotian/containerd/core/mount"
 	"github.com/containerd/containerd/api/types"
 	"github.com/containerd/containerd/api/types/runc/options"
 	"github.com/containerd/errdefs"

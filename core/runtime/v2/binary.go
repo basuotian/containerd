@@ -25,12 +25,12 @@ import (
 	"path/filepath"
 	gruntime "runtime"
 
-	"github.com/basuotian/containerd/v2/core/runtime"
-	"github.com/basuotian/containerd/v2/pkg/namespaces"
-	"github.com/basuotian/containerd/v2/pkg/protobuf"
-	"github.com/basuotian/containerd/v2/pkg/protobuf/proto"
-	"github.com/basuotian/containerd/v2/pkg/protobuf/types"
-	client "github.com/basuotian/containerd/v2/pkg/shim"
+	"github.com/basuotian/containerd/core/runtime"
+	"github.com/basuotian/containerd/pkg/namespaces"
+	"github.com/basuotian/containerd/pkg/protobuf"
+	"github.com/basuotian/containerd/pkg/protobuf/proto"
+	"github.com/basuotian/containerd/pkg/protobuf/types"
+	client "github.com/basuotian/containerd/pkg/shim"
 	"github.com/containerd/containerd/api/runtime/task/v2"
 	"github.com/containerd/log"
 )

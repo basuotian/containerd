@@ -35,7 +35,7 @@ package resourcequantity_test
 import (
 	"fmt"
 
-	resource "github.com/basuotian/containerd/v2/internal/cri/resourcequantity"
+	resource "github.com/basuotian/containerd/internal/cri/resourcequantity"
 )
 
 func ExampleFormat() {

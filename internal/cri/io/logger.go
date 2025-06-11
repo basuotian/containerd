@@ -25,7 +25,7 @@ import (
 
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	cioutil "github.com/basuotian/containerd/v2/pkg/ioutil"
+	cioutil "github.com/basuotian/containerd/pkg/ioutil"
 	"github.com/containerd/log"
 )
 

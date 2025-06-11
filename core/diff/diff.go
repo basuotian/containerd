@@ -21,7 +21,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/basuotian/containerd/v2/core/mount"
+	"github.com/basuotian/containerd/core/mount"
 	"github.com/containerd/typeurl/v2"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )

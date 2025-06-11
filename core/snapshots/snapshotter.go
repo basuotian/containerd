@@ -22,7 +22,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/basuotian/containerd/v2/core/mount"
+	"github.com/basuotian/containerd/core/mount"
 )
 
 const (

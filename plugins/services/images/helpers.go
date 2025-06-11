@@ -17,9 +17,9 @@
 package images
 
 import (
-	"github.com/basuotian/containerd/v2/core/images"
-	"github.com/basuotian/containerd/v2/pkg/oci"
-	"github.com/basuotian/containerd/v2/pkg/protobuf"
+	"github.com/basuotian/containerd/core/images"
+	"github.com/basuotian/containerd/pkg/oci"
+	"github.com/basuotian/containerd/pkg/protobuf"
 	imagesapi "github.com/containerd/containerd/api/services/images/v1"
 )
 

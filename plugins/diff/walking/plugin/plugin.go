@@ -17,11 +17,11 @@
 package plugin
 
 import (
-	"github.com/basuotian/containerd/v2/core/diff"
-	"github.com/basuotian/containerd/v2/core/diff/apply"
-	"github.com/basuotian/containerd/v2/core/metadata"
-	"github.com/basuotian/containerd/v2/plugins"
-	"github.com/basuotian/containerd/v2/plugins/diff/walking"
+	"github.com/basuotian/containerd/core/diff"
+	"github.com/basuotian/containerd/core/diff/apply"
+	"github.com/basuotian/containerd/core/metadata"
+	"github.com/basuotian/containerd/plugins"
+	"github.com/basuotian/containerd/plugins/diff/walking"
 	"github.com/containerd/platforms"
 	"github.com/containerd/plugin"
 	"github.com/containerd/plugin/registry"

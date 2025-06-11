@@ -17,9 +17,9 @@
 package containers
 
 import (
-	"github.com/basuotian/containerd/v2/core/containers"
-	"github.com/basuotian/containerd/v2/pkg/protobuf"
-	"github.com/basuotian/containerd/v2/pkg/protobuf/types"
+	"github.com/basuotian/containerd/core/containers"
+	"github.com/basuotian/containerd/pkg/protobuf"
+	"github.com/basuotian/containerd/pkg/protobuf/types"
 	api "github.com/containerd/containerd/api/services/containers/v1"
 	"github.com/containerd/typeurl/v2"
 )

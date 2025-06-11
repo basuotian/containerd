@@ -20,12 +20,12 @@ import (
 	"context"
 	"testing"
 
-	snapshot "github.com/basuotian/containerd/v2/core/snapshots"
+	snapshot "github.com/basuotian/containerd/core/snapshots"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	snapshotstore "github.com/basuotian/containerd/v2/internal/cri/store/snapshot"
+	snapshotstore "github.com/basuotian/containerd/internal/cri/store/snapshot"
 )
 
 func TestImageFsInfo(t *testing.T) {

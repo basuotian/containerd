@@ -20,7 +20,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/basuotian/containerd/v2/core/images/archive"
+	"github.com/basuotian/containerd/core/images/archive"
 )
 
 // Export exports images to a Tar stream.

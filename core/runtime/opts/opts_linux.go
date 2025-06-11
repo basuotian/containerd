@@ -19,7 +19,7 @@ package opts
 import (
 	"context"
 
-	"github.com/basuotian/containerd/v2/pkg/namespaces"
+	"github.com/basuotian/containerd/pkg/namespaces"
 	"github.com/containerd/cgroups/v3"
 	cgroup1 "github.com/containerd/cgroups/v3/cgroup1"
 	cgroup2 "github.com/containerd/cgroups/v3/cgroup2"

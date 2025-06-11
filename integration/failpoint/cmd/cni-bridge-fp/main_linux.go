@@ -25,7 +25,7 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"github.com/basuotian/containerd/v2/internal/failpoint"
+	"github.com/basuotian/containerd/internal/failpoint"
 	"github.com/containerd/continuity"
 	"github.com/containernetworking/cni/pkg/invoke"
 	"github.com/containernetworking/cni/pkg/skel"

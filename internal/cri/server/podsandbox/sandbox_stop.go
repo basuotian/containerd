@@ -25,11 +25,11 @@ import (
 	"github.com/containerd/errdefs"
 	"github.com/containerd/log"
 
-	"github.com/basuotian/containerd/v2/core/sandbox"
-	"github.com/basuotian/containerd/v2/internal/cri/server/podsandbox/types"
-	sandboxstore "github.com/basuotian/containerd/v2/internal/cri/store/sandbox"
-	ctrdutil "github.com/basuotian/containerd/v2/internal/cri/util"
-	"github.com/basuotian/containerd/v2/pkg/protobuf"
+	"github.com/basuotian/containerd/core/sandbox"
+	"github.com/basuotian/containerd/internal/cri/server/podsandbox/types"
+	sandboxstore "github.com/basuotian/containerd/internal/cri/store/sandbox"
+	ctrdutil "github.com/basuotian/containerd/internal/cri/util"
+	"github.com/basuotian/containerd/pkg/protobuf"
 	eventtypes "github.com/containerd/containerd/api/events"
 )
 

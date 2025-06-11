@@ -29,9 +29,9 @@ import (
 	runtimespec "github.com/opencontainers/runtime-spec/specs-go"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	"github.com/basuotian/containerd/v2/core/containers"
-	"github.com/basuotian/containerd/v2/internal/cri/util"
-	"github.com/basuotian/containerd/v2/pkg/oci"
+	"github.com/basuotian/containerd/core/containers"
+	"github.com/basuotian/containerd/internal/cri/util"
+	"github.com/basuotian/containerd/pkg/oci"
 )
 
 // DefaultSandboxCPUshares is default cpu shares for sandbox container.

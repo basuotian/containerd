@@ -28,7 +28,7 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/basuotian/containerd/v2/pkg/testutil"
+	"github.com/basuotian/containerd/pkg/testutil"
 	"golang.org/x/sys/unix"
 )
 

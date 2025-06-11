@@ -21,8 +21,8 @@ import (
 	"testing"
 
 	fuzz "github.com/AdaLogics/go-fuzz-headers"
-	"github.com/basuotian/containerd/v2/core/images"
-	"github.com/basuotian/containerd/v2/plugins/content/local"
+	"github.com/basuotian/containerd/core/images"
+	"github.com/basuotian/containerd/plugins/content/local"
 	"github.com/containerd/platforms"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )

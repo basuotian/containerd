@@ -20,8 +20,8 @@ import (
 	"context"
 	"sort"
 
-	criconfig "github.com/basuotian/containerd/v2/internal/cri/config"
-	"github.com/basuotian/containerd/v2/internal/cri/systemd"
+	criconfig "github.com/basuotian/containerd/internal/cri/config"
+	"github.com/basuotian/containerd/internal/cri/systemd"
 	runcoptions "github.com/containerd/containerd/api/types/runc/options"
 	"github.com/containerd/log"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"

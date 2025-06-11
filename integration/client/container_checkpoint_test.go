@@ -29,9 +29,9 @@ import (
 	"syscall"
 	"testing"
 
-	. "github.com/basuotian/containerd/v2/client"
-	"github.com/basuotian/containerd/v2/pkg/cio"
-	"github.com/basuotian/containerd/v2/pkg/oci"
+	. "github.com/basuotian/containerd/client"
+	"github.com/basuotian/containerd/pkg/cio"
+	"github.com/basuotian/containerd/pkg/oci"
 )
 
 const (

@@ -20,9 +20,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/basuotian/containerd/v2/cmd/ctr/commands"
-	"github.com/basuotian/containerd/v2/core/leases"
-	"github.com/basuotian/containerd/v2/core/mount"
+	"github.com/basuotian/containerd/cmd/ctr/commands"
+	"github.com/basuotian/containerd/core/leases"
+	"github.com/basuotian/containerd/core/mount"
 	"github.com/containerd/errdefs"
 	"github.com/urfave/cli/v2"
 )

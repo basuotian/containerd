@@ -19,9 +19,9 @@ package imageverifier
 import (
 	"time"
 
-	"github.com/basuotian/containerd/v2/internal/tomlext"
-	"github.com/basuotian/containerd/v2/pkg/imageverifier/bindir"
-	"github.com/basuotian/containerd/v2/plugins"
+	"github.com/basuotian/containerd/internal/tomlext"
+	"github.com/basuotian/containerd/pkg/imageverifier/bindir"
+	"github.com/basuotian/containerd/plugins"
 	"github.com/containerd/plugin"
 	"github.com/containerd/plugin/registry"
 )

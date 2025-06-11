@@ -20,8 +20,8 @@ import (
 	"context"
 	"os"
 
-	srvconfig "github.com/basuotian/containerd/v2/cmd/containerd/server/config"
-	"github.com/basuotian/containerd/v2/pkg/sys"
+	srvconfig "github.com/basuotian/containerd/cmd/containerd/server/config"
+	"github.com/basuotian/containerd/pkg/sys"
 	"github.com/containerd/cgroups/v3"
 	cgroup1 "github.com/containerd/cgroups/v3/cgroup1"
 	cgroupsv2 "github.com/containerd/cgroups/v3/cgroup2"

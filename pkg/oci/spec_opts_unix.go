@@ -21,7 +21,7 @@ package oci
 import (
 	"context"
 
-	"github.com/basuotian/containerd/v2/core/containers"
+	"github.com/basuotian/containerd/core/containers"
 )
 
 // WithHostDevices adds all the hosts device nodes to the container's spec

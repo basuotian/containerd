@@ -39,7 +39,7 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/basuotian/containerd/v2/core/mount"
+	"github.com/basuotian/containerd/core/mount"
 	cnins "github.com/containernetworking/plugins/pkg/ns"
 	"github.com/moby/sys/symlink"
 	"golang.org/x/sys/unix"

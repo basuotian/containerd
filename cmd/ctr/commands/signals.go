@@ -22,7 +22,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	containerd "github.com/basuotian/containerd/v2/client"
+	containerd "github.com/basuotian/containerd/client"
 	"github.com/containerd/errdefs"
 	"github.com/containerd/log"
 )

@@ -20,9 +20,9 @@ package converter
 import (
 	"context"
 
-	"github.com/basuotian/containerd/v2/core/content"
-	"github.com/basuotian/containerd/v2/core/images"
-	"github.com/basuotian/containerd/v2/core/leases"
+	"github.com/basuotian/containerd/core/content"
+	"github.com/basuotian/containerd/core/images"
+	"github.com/basuotian/containerd/core/leases"
 	"github.com/containerd/platforms"
 )
 

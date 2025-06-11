@@ -19,7 +19,7 @@ package client
 import (
 	"context"
 
-	"github.com/basuotian/containerd/v2/pkg/namespaces"
+	"github.com/basuotian/containerd/pkg/namespaces"
 	"google.golang.org/grpc"
 )
 

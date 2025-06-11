@@ -21,7 +21,7 @@ package server
 import (
 	"fmt"
 
-	"github.com/basuotian/containerd/v2/pkg/blockio"
+	"github.com/basuotian/containerd/pkg/blockio"
 	"github.com/containerd/log"
 )
 

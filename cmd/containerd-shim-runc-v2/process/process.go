@@ -21,7 +21,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/basuotian/containerd/v2/pkg/stdio"
+	"github.com/basuotian/containerd/pkg/stdio"
 	"github.com/containerd/console"
 )
 

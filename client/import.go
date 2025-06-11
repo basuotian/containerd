@@ -20,8 +20,8 @@ import (
 	"context"
 	"io"
 
-	"github.com/basuotian/containerd/v2/core/images"
-	"github.com/basuotian/containerd/v2/core/images/archive"
+	"github.com/basuotian/containerd/core/images"
+	"github.com/basuotian/containerd/core/images/archive"
 	"github.com/containerd/errdefs"
 	"github.com/containerd/platforms"
 	digest "github.com/opencontainers/go-digest"

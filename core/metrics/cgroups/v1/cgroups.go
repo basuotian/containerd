@@ -21,9 +21,9 @@ package v1
 import (
 	"context"
 
-	"github.com/basuotian/containerd/v2/core/events"
-	"github.com/basuotian/containerd/v2/core/runtime"
-	"github.com/basuotian/containerd/v2/pkg/namespaces"
+	"github.com/basuotian/containerd/core/events"
+	"github.com/basuotian/containerd/core/runtime"
+	"github.com/basuotian/containerd/pkg/namespaces"
 	cgroups "github.com/containerd/cgroups/v3/cgroup1"
 	eventstypes "github.com/containerd/containerd/api/events"
 	"github.com/containerd/errdefs"

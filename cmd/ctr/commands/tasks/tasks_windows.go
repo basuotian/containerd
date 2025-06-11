@@ -22,8 +22,8 @@ import (
 	"net/url"
 	"time"
 
-	containerd "github.com/basuotian/containerd/v2/client"
-	"github.com/basuotian/containerd/v2/pkg/cio"
+	containerd "github.com/basuotian/containerd/client"
+	"github.com/basuotian/containerd/pkg/cio"
 	"github.com/containerd/console"
 	"github.com/containerd/log"
 	"github.com/urfave/cli/v2"

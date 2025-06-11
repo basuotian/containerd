@@ -20,8 +20,8 @@ import (
 	"errors"
 	"fmt"
 
-	containerd "github.com/basuotian/containerd/v2/client"
-	"github.com/basuotian/containerd/v2/cmd/ctr/commands"
+	containerd "github.com/basuotian/containerd/client"
+	"github.com/basuotian/containerd/cmd/ctr/commands"
 	"github.com/containerd/containerd/api/types/runc/options"
 	"github.com/urfave/cli/v2"
 )

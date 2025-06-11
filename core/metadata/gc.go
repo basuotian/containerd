@@ -24,7 +24,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/basuotian/containerd/v2/pkg/gc"
+	"github.com/basuotian/containerd/pkg/gc"
 	eventstypes "github.com/containerd/containerd/api/events"
 	"github.com/containerd/log"
 	bolt "go.etcd.io/bbolt"

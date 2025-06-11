@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/basuotian/containerd/v2/internal/cri/server/podsandbox/types"
+	"github.com/basuotian/containerd/internal/cri/server/podsandbox/types"
 )
 
 type Store struct {

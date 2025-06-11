@@ -23,7 +23,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	sandboxstore "github.com/basuotian/containerd/v2/internal/cri/store/sandbox"
+	sandboxstore "github.com/basuotian/containerd/internal/cri/store/sandbox"
 )
 
 func TestPodSandboxStatus(t *testing.T) {

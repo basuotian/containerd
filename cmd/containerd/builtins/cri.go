@@ -19,7 +19,7 @@
 package builtins
 
 import (
-	_ "github.com/basuotian/containerd/v2/plugins/cri"
-	_ "github.com/basuotian/containerd/v2/plugins/cri/images"
-	_ "github.com/basuotian/containerd/v2/plugins/cri/runtime"
+	_ "github.com/basuotian/containerd/plugins/cri"
+	_ "github.com/basuotian/containerd/plugins/cri/images"
+	_ "github.com/basuotian/containerd/plugins/cri/runtime"
 )

@@ -25,8 +25,8 @@ import (
 	"github.com/stretchr/testify/require"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	containerstore "github.com/basuotian/containerd/v2/internal/cri/store/container"
-	sandboxstore "github.com/basuotian/containerd/v2/internal/cri/store/sandbox"
+	containerstore "github.com/basuotian/containerd/internal/cri/store/container"
+	sandboxstore "github.com/basuotian/containerd/internal/cri/store/sandbox"
 )
 
 func TestToCRIContainer(t *testing.T) {

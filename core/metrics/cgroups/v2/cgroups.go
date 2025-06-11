@@ -21,8 +21,8 @@ package v2
 import (
 	"context"
 
-	"github.com/basuotian/containerd/v2/core/events"
-	"github.com/basuotian/containerd/v2/core/runtime"
+	"github.com/basuotian/containerd/core/events"
+	"github.com/basuotian/containerd/core/runtime"
 	"github.com/docker/go-metrics"
 )
 

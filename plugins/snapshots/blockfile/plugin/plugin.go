@@ -19,8 +19,8 @@ package plugin
 import (
 	"errors"
 
-	"github.com/basuotian/containerd/v2/plugins"
-	"github.com/basuotian/containerd/v2/plugins/snapshots/blockfile"
+	"github.com/basuotian/containerd/plugins"
+	"github.com/basuotian/containerd/plugins/snapshots/blockfile"
 	"github.com/containerd/platforms"
 	"github.com/containerd/plugin"
 	"github.com/containerd/plugin/registry"

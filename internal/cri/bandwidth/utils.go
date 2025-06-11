@@ -35,7 +35,7 @@ package bandwidth
 import (
 	"fmt"
 
-	resource "github.com/basuotian/containerd/v2/internal/cri/resourcequantity"
+	resource "github.com/basuotian/containerd/internal/cri/resourcequantity"
 )
 
 var minRsrc = resource.MustParse("1k")

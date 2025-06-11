@@ -26,9 +26,9 @@ import (
 	"github.com/containerd/errdefs"
 	"github.com/containerd/log"
 
-	"github.com/basuotian/containerd/v2/core/mount"
-	"github.com/basuotian/containerd/v2/pkg/namespaces"
-	"github.com/basuotian/containerd/v2/pkg/timeout"
+	"github.com/basuotian/containerd/core/mount"
+	"github.com/basuotian/containerd/pkg/namespaces"
+	"github.com/basuotian/containerd/pkg/timeout"
 )
 
 // LoadExistingShims loads existing shims from the path specified by stateDir

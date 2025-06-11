@@ -26,9 +26,9 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/basuotian/containerd/v2/client"
-	"github.com/basuotian/containerd/v2/pkg/oci"
-	"github.com/basuotian/containerd/v2/plugins"
+	. "github.com/basuotian/containerd/client"
+	"github.com/basuotian/containerd/pkg/oci"
+	"github.com/basuotian/containerd/plugins"
 	"github.com/containerd/cgroups/v3"
 	"github.com/containerd/containerd/api/types/runc/options"
 )

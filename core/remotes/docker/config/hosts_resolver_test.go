@@ -37,7 +37,7 @@ import (
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/basuotian/containerd/v2/core/remotes/docker"
+	"github.com/basuotian/containerd/core/remotes/docker"
 )
 
 func TestResolverWithHostsDir(t *testing.T) {

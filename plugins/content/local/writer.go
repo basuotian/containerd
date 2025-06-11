@@ -30,8 +30,8 @@ import (
 	"github.com/containerd/log"
 	"github.com/opencontainers/go-digest"
 
-	"github.com/basuotian/containerd/v2/core/content"
-	"github.com/basuotian/containerd/v2/internal/fsverity"
+	"github.com/basuotian/containerd/core/content"
+	"github.com/basuotian/containerd/internal/fsverity"
 )
 
 // writer represents a write transaction against the blob store.

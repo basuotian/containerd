@@ -22,10 +22,10 @@ import (
 	"sync/atomic"
 	"testing"
 
-	. "github.com/basuotian/containerd/v2/client"
-	"github.com/basuotian/containerd/v2/core/content"
-	"github.com/basuotian/containerd/v2/core/content/testsuite"
-	"github.com/basuotian/containerd/v2/pkg/namespaces"
+	. "github.com/basuotian/containerd/client"
+	"github.com/basuotian/containerd/core/content"
+	"github.com/basuotian/containerd/core/content/testsuite"
+	"github.com/basuotian/containerd/pkg/namespaces"
 	"github.com/containerd/errdefs"
 )
 

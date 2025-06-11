@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/basuotian/containerd/v2/cmd/ctr/app"
+	"github.com/basuotian/containerd/cmd/ctr/app"
 	"github.com/urfave/cli/v2"
 )
 

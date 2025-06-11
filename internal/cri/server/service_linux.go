@@ -23,8 +23,8 @@ import (
 	"github.com/opencontainers/selinux/go-selinux"
 	"tags.cncf.io/container-device-interface/pkg/cdi"
 
-	"github.com/basuotian/containerd/v2/pkg/cap"
-	"github.com/basuotian/containerd/v2/pkg/kernelversion"
+	"github.com/basuotian/containerd/pkg/cap"
+	"github.com/basuotian/containerd/pkg/kernelversion"
 	"github.com/containerd/go-cni"
 	"github.com/containerd/log"
 )

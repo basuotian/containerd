@@ -19,9 +19,9 @@ package tasks
 import (
 	"context"
 
-	containerd "github.com/basuotian/containerd/v2/client"
-	"github.com/basuotian/containerd/v2/cmd/ctr/commands"
-	"github.com/basuotian/containerd/v2/pkg/cio"
+	containerd "github.com/basuotian/containerd/client"
+	"github.com/basuotian/containerd/cmd/ctr/commands"
+	"github.com/basuotian/containerd/pkg/cio"
 	"github.com/containerd/log"
 	"github.com/urfave/cli/v2"
 )

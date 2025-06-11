@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"os/exec"
 
-	"github.com/basuotian/containerd/v2/core/metadata"
-	"github.com/basuotian/containerd/v2/plugins"
-	"github.com/basuotian/containerd/v2/plugins/diff/erofs"
+	"github.com/basuotian/containerd/core/metadata"
+	"github.com/basuotian/containerd/plugins"
+	"github.com/basuotian/containerd/plugins/diff/erofs"
 	"github.com/containerd/platforms"
 	"github.com/containerd/plugin"
 	"github.com/containerd/plugin/registry"

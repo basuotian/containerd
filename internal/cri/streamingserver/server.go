@@ -48,8 +48,8 @@ import (
 
 	restful "github.com/emicklei/go-restful/v3"
 
-	"github.com/basuotian/containerd/v2/internal/cri/streamingserver/portforward"
-	remotecommandserver "github.com/basuotian/containerd/v2/internal/cri/streamingserver/remotecommand"
+	"github.com/basuotian/containerd/internal/cri/streamingserver/portforward"
+	remotecommandserver "github.com/basuotian/containerd/internal/cri/streamingserver/remotecommand"
 	"k8s.io/apimachinery/pkg/types"
 	remotecommandconsts "k8s.io/apimachinery/pkg/util/remotecommand"
 	"k8s.io/client-go/tools/remotecommand"

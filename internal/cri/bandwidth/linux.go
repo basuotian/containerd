@@ -42,10 +42,10 @@ import (
 	"net"
 	"strings"
 
-	executil "github.com/basuotian/containerd/v2/internal/cri/executil"
-	resource "github.com/basuotian/containerd/v2/internal/cri/resourcequantity"
-	"github.com/basuotian/containerd/v2/internal/cri/setutils"
-	"github.com/basuotian/containerd/v2/internal/lazyregexp"
+	executil "github.com/basuotian/containerd/internal/cri/executil"
+	resource "github.com/basuotian/containerd/internal/cri/resourcequantity"
+	"github.com/basuotian/containerd/internal/cri/setutils"
+	"github.com/basuotian/containerd/internal/lazyregexp"
 	"github.com/containerd/log"
 )
 

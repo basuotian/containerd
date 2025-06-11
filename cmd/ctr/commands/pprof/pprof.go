@@ -23,7 +23,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/basuotian/containerd/v2/defaults"
+	"github.com/basuotian/containerd/defaults"
 	"github.com/urfave/cli/v2"
 )
 

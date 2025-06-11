@@ -20,9 +20,9 @@ import (
 	"context"
 	"io"
 
-	ptypes "github.com/basuotian/containerd/v2/pkg/protobuf/types"
-	"github.com/basuotian/containerd/v2/plugins"
-	"github.com/basuotian/containerd/v2/plugins/services"
+	ptypes "github.com/basuotian/containerd/pkg/protobuf/types"
+	"github.com/basuotian/containerd/plugins"
+	"github.com/basuotian/containerd/plugins/services"
 	api "github.com/containerd/containerd/api/services/containers/v1"
 	"github.com/containerd/plugin"
 	"github.com/containerd/plugin/registry"

@@ -26,7 +26,7 @@ import (
 	"time"
 
 	"github.com/Microsoft/hcsshim/osversion"
-	"github.com/basuotian/containerd/v2/integration/images"
+	"github.com/basuotian/containerd/integration/images"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/sys/windows/registry"

@@ -26,9 +26,9 @@ import (
 	"strings"
 	"time"
 
-	remoteserrors "github.com/basuotian/containerd/v2/core/remotes/errors"
-	"github.com/basuotian/containerd/v2/pkg/tracing"
-	"github.com/basuotian/containerd/v2/version"
+	remoteserrors "github.com/basuotian/containerd/core/remotes/errors"
+	"github.com/basuotian/containerd/pkg/tracing"
+	"github.com/basuotian/containerd/version"
 	"github.com/containerd/log"
 )
 

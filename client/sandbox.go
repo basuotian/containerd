@@ -25,10 +25,10 @@ import (
 	"github.com/containerd/errdefs"
 	"github.com/containerd/typeurl/v2"
 
-	"github.com/basuotian/containerd/v2/core/containers"
-	api "github.com/basuotian/containerd/v2/core/sandbox"
-	"github.com/basuotian/containerd/v2/pkg/oci"
-	"github.com/basuotian/containerd/v2/pkg/protobuf/types"
+	"github.com/basuotian/containerd/core/containers"
+	api "github.com/basuotian/containerd/core/sandbox"
+	"github.com/basuotian/containerd/pkg/oci"
+	"github.com/basuotian/containerd/pkg/protobuf/types"
 )
 
 // Sandbox is a high level client to containerd's sandboxes.

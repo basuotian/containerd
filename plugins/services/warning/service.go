@@ -23,8 +23,8 @@ import (
 
 	"github.com/containerd/log"
 
-	deprecation "github.com/basuotian/containerd/v2/pkg/deprecation"
-	"github.com/basuotian/containerd/v2/plugins"
+	deprecation "github.com/basuotian/containerd/pkg/deprecation"
+	"github.com/basuotian/containerd/plugins"
 	"github.com/containerd/plugin"
 	"github.com/containerd/plugin/registry"
 )

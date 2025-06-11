@@ -19,7 +19,7 @@ package podsandbox
 import (
 	"context"
 
-	containerd "github.com/basuotian/containerd/v2/client"
+	containerd "github.com/basuotian/containerd/client"
 	"github.com/containerd/log"
 	"github.com/containerd/nri"
 	v1 "github.com/containerd/nri/types/v1"

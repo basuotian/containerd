@@ -33,11 +33,11 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	streamingapi "github.com/basuotian/containerd/v2/core/streaming"
-	"github.com/basuotian/containerd/v2/core/streaming/proxy"
-	"github.com/basuotian/containerd/v2/core/transfer/streaming"
-	"github.com/basuotian/containerd/v2/pkg/cio"
-	"github.com/basuotian/containerd/v2/pkg/shim"
+	streamingapi "github.com/basuotian/containerd/core/streaming"
+	"github.com/basuotian/containerd/core/streaming/proxy"
+	"github.com/basuotian/containerd/core/transfer/streaming"
+	"github.com/basuotian/containerd/pkg/cio"
+	"github.com/basuotian/containerd/pkg/shim"
 )
 
 // AttachOptions specifies how to attach to a container.

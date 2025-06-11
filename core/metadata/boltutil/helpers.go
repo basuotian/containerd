@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/basuotian/containerd/v2/pkg/protobuf/proto"
-	"github.com/basuotian/containerd/v2/pkg/protobuf/types"
+	"github.com/basuotian/containerd/pkg/protobuf/proto"
+	"github.com/basuotian/containerd/pkg/protobuf/types"
 	"github.com/containerd/typeurl/v2"
 	bolt "go.etcd.io/bbolt"
 )

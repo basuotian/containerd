@@ -23,12 +23,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/basuotian/containerd/v2/core/mount"
-	"github.com/basuotian/containerd/v2/core/snapshots"
-	"github.com/basuotian/containerd/v2/core/snapshots/storage"
-	"github.com/basuotian/containerd/v2/core/snapshots/testsuite"
-	"github.com/basuotian/containerd/v2/internal/fsverity"
-	"github.com/basuotian/containerd/v2/pkg/testutil"
+	"github.com/basuotian/containerd/core/mount"
+	"github.com/basuotian/containerd/core/snapshots"
+	"github.com/basuotian/containerd/core/snapshots/storage"
+	"github.com/basuotian/containerd/core/snapshots/testsuite"
+	"github.com/basuotian/containerd/internal/fsverity"
+	"github.com/basuotian/containerd/pkg/testutil"
 )
 
 func newSnapshotter(t *testing.T) func(ctx context.Context, root string) (snapshots.Snapshotter, func() error, error) {

@@ -24,7 +24,7 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/basuotian/containerd/v2/pkg/sys"
+	"github.com/basuotian/containerd/pkg/sys"
 	cgroups "github.com/containerd/cgroups/v3/cgroup1"
 	"github.com/containerd/log"
 	metrics "github.com/docker/go-metrics"

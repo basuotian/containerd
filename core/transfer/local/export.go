@@ -19,8 +19,8 @@ package local
 import (
 	"context"
 
-	"github.com/basuotian/containerd/v2/core/images"
-	"github.com/basuotian/containerd/v2/core/transfer"
+	"github.com/basuotian/containerd/core/images"
+	"github.com/basuotian/containerd/core/transfer"
 )
 
 func (ts *localTransferService) exportStream(ctx context.Context, ig transfer.ImageGetter, is transfer.ImageExporter, tops *transfer.Config) error {

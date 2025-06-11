@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/basuotian/containerd/v2/core/snapshots"
+	"github.com/basuotian/containerd/core/snapshots"
 	"github.com/containerd/continuity/fs/fstest"
 )
 

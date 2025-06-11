@@ -29,12 +29,12 @@ import (
 	"github.com/containerd/continuity/fs/fstest"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/basuotian/containerd/v2/core/mount"
-	"github.com/basuotian/containerd/v2/core/snapshots"
-	"github.com/basuotian/containerd/v2/core/snapshots/testsuite"
-	"github.com/basuotian/containerd/v2/pkg/namespaces"
-	"github.com/basuotian/containerd/v2/pkg/testutil"
-	"github.com/basuotian/containerd/v2/plugins/snapshots/devmapper/dmsetup"
+	"github.com/basuotian/containerd/core/mount"
+	"github.com/basuotian/containerd/core/snapshots"
+	"github.com/basuotian/containerd/core/snapshots/testsuite"
+	"github.com/basuotian/containerd/pkg/namespaces"
+	"github.com/basuotian/containerd/pkg/testutil"
+	"github.com/basuotian/containerd/plugins/snapshots/devmapper/dmsetup"
 	"github.com/containerd/log"
 )
 

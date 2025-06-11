@@ -28,8 +28,8 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	blkdiscard "github.com/basuotian/containerd/v2/plugins/snapshots/devmapper/blkdiscard"
-	"github.com/basuotian/containerd/v2/plugins/snapshots/devmapper/dmsetup"
+	blkdiscard "github.com/basuotian/containerd/plugins/snapshots/devmapper/blkdiscard"
+	"github.com/basuotian/containerd/plugins/snapshots/devmapper/dmsetup"
 	"github.com/containerd/log"
 )
 

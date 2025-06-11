@@ -30,7 +30,7 @@ import (
 	"google.golang.org/protobuf/types/known/anypb"
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/basuotian/containerd/v2/core/introspection"
+	"github.com/basuotian/containerd/core/introspection"
 )
 
 var _ = (introspection.Service)(&introspectionRemote{})

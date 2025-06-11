@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/basuotian/containerd/v2/core/content"
-	"github.com/basuotian/containerd/v2/core/images"
-	"github.com/basuotian/containerd/v2/core/images/converter"
-	"github.com/basuotian/containerd/v2/pkg/archive/compression"
-	"github.com/basuotian/containerd/v2/pkg/labels"
+	"github.com/basuotian/containerd/core/content"
+	"github.com/basuotian/containerd/core/images"
+	"github.com/basuotian/containerd/core/images/converter"
+	"github.com/basuotian/containerd/pkg/archive/compression"
+	"github.com/basuotian/containerd/pkg/labels"
 	"github.com/containerd/errdefs"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )

@@ -26,8 +26,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/basuotian/containerd/v2/integration/images"
-	"github.com/basuotian/containerd/v2/pkg/namespaces"
+	"github.com/basuotian/containerd/integration/images"
+	"github.com/basuotian/containerd/pkg/namespaces"
 	"github.com/stretchr/testify/require"
 	"k8s.io/client-go/rest"
 	remoteclient "k8s.io/client-go/tools/remotecommand"

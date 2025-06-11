@@ -19,7 +19,7 @@ package client
 import (
 	"context"
 
-	"github.com/basuotian/containerd/v2/core/snapshots"
+	"github.com/basuotian/containerd/core/snapshots"
 )
 
 func resolveSnapshotOptions(ctx context.Context, client *Client, snapshotterName string, snapshotter snapshots.Snapshotter, parent string, opts ...snapshots.Opt) (string, error) {

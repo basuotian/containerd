@@ -20,9 +20,9 @@ import (
 	"github.com/containerd/plugin"
 	"github.com/containerd/plugin/registry"
 
-	"github.com/basuotian/containerd/v2/core/metadata"
-	"github.com/basuotian/containerd/v2/plugins"
-	"github.com/basuotian/containerd/v2/plugins/services"
+	"github.com/basuotian/containerd/core/metadata"
+	"github.com/basuotian/containerd/plugins"
+	"github.com/basuotian/containerd/plugins/services"
 )
 
 func init() {

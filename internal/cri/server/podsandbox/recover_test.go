@@ -28,13 +28,13 @@ import (
 	"github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/stretchr/testify/assert"
 
-	containerd "github.com/basuotian/containerd/v2/client"
-	"github.com/basuotian/containerd/v2/core/containers"
-	criconfig "github.com/basuotian/containerd/v2/internal/cri/config"
-	crilabels "github.com/basuotian/containerd/v2/internal/cri/labels"
-	"github.com/basuotian/containerd/v2/internal/cri/store/sandbox"
-	"github.com/basuotian/containerd/v2/pkg/cio"
-	"github.com/basuotian/containerd/v2/pkg/oci"
+	containerd "github.com/basuotian/containerd/client"
+	"github.com/basuotian/containerd/core/containers"
+	criconfig "github.com/basuotian/containerd/internal/cri/config"
+	crilabels "github.com/basuotian/containerd/internal/cri/labels"
+	"github.com/basuotian/containerd/internal/cri/store/sandbox"
+	"github.com/basuotian/containerd/pkg/cio"
+	"github.com/basuotian/containerd/pkg/oci"
 	"github.com/containerd/containerd/api/types"
 )
 

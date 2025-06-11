@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/basuotian/containerd/v2/integration/images"
-	"github.com/basuotian/containerd/v2/integration/remote"
+	"github.com/basuotian/containerd/integration/images"
+	"github.com/basuotian/containerd/integration/remote"
 	"github.com/containerd/cgroups/v3"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

@@ -19,8 +19,8 @@ package oci
 import (
 	"context"
 
-	"github.com/basuotian/containerd/v2/core/containers"
-	"github.com/basuotian/containerd/v2/pkg/cap"
+	"github.com/basuotian/containerd/core/containers"
+	"github.com/basuotian/containerd/pkg/cap"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 )
 

@@ -25,13 +25,13 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	containerd "github.com/basuotian/containerd/v2/client"
-	"github.com/basuotian/containerd/v2/cmd/ctr/commands"
-	"github.com/basuotian/containerd/v2/core/diff"
-	"github.com/basuotian/containerd/v2/core/images/archive"
-	"github.com/basuotian/containerd/v2/core/transfer"
-	tarchive "github.com/basuotian/containerd/v2/core/transfer/archive"
-	"github.com/basuotian/containerd/v2/core/transfer/image"
+	containerd "github.com/basuotian/containerd/client"
+	"github.com/basuotian/containerd/cmd/ctr/commands"
+	"github.com/basuotian/containerd/core/diff"
+	"github.com/basuotian/containerd/core/images/archive"
+	"github.com/basuotian/containerd/core/transfer"
+	tarchive "github.com/basuotian/containerd/core/transfer/archive"
+	"github.com/basuotian/containerd/core/transfer/image"
 	"github.com/containerd/log"
 	"github.com/containerd/platforms"
 )

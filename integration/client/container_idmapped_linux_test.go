@@ -22,11 +22,11 @@ import (
 	"syscall"
 	"testing"
 
-	containerd "github.com/basuotian/containerd/v2/client"
-	"github.com/basuotian/containerd/v2/core/snapshots"
-	"github.com/basuotian/containerd/v2/internal/userns"
-	"github.com/basuotian/containerd/v2/pkg/oci"
-	"github.com/basuotian/containerd/v2/plugins/snapshots/overlay/overlayutils"
+	containerd "github.com/basuotian/containerd/client"
+	"github.com/basuotian/containerd/core/snapshots"
+	"github.com/basuotian/containerd/internal/userns"
+	"github.com/basuotian/containerd/pkg/oci"
+	"github.com/basuotian/containerd/plugins/snapshots/overlay/overlayutils"
 	"github.com/opencontainers/runtime-spec/specs-go"
 )
 

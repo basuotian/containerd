@@ -35,8 +35,8 @@ import (
 	"github.com/stretchr/testify/require"
 	criapiv1 "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	"github.com/basuotian/containerd/v2/internal/cri/types"
-	"github.com/basuotian/containerd/v2/internal/failpoint"
+	"github.com/basuotian/containerd/internal/cri/types"
+	"github.com/basuotian/containerd/internal/failpoint"
 )
 
 const (

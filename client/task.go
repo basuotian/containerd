@@ -37,17 +37,17 @@ import (
 	v1 "github.com/opencontainers/image-spec/specs-go/v1"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 
-	"github.com/basuotian/containerd/v2/core/content"
-	"github.com/basuotian/containerd/v2/core/diff"
-	"github.com/basuotian/containerd/v2/core/images"
-	"github.com/basuotian/containerd/v2/core/mount"
-	"github.com/basuotian/containerd/v2/pkg/cio"
-	"github.com/basuotian/containerd/v2/pkg/oci"
-	"github.com/basuotian/containerd/v2/pkg/protobuf"
-	google_protobuf "github.com/basuotian/containerd/v2/pkg/protobuf/types"
-	"github.com/basuotian/containerd/v2/pkg/rootfs"
-	"github.com/basuotian/containerd/v2/pkg/tracing"
-	"github.com/basuotian/containerd/v2/plugins"
+	"github.com/basuotian/containerd/core/content"
+	"github.com/basuotian/containerd/core/diff"
+	"github.com/basuotian/containerd/core/images"
+	"github.com/basuotian/containerd/core/mount"
+	"github.com/basuotian/containerd/pkg/cio"
+	"github.com/basuotian/containerd/pkg/oci"
+	"github.com/basuotian/containerd/pkg/protobuf"
+	google_protobuf "github.com/basuotian/containerd/pkg/protobuf/types"
+	"github.com/basuotian/containerd/pkg/rootfs"
+	"github.com/basuotian/containerd/pkg/tracing"
+	"github.com/basuotian/containerd/plugins"
 )
 
 // UnknownExitStatus is returned when containerd is unable to

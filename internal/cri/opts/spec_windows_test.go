@@ -27,10 +27,10 @@ import (
 	"github.com/stretchr/testify/require"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	"github.com/basuotian/containerd/v2/core/containers"
-	"github.com/basuotian/containerd/v2/pkg/namespaces"
-	"github.com/basuotian/containerd/v2/pkg/oci"
-	osinterface "github.com/basuotian/containerd/v2/pkg/os"
+	"github.com/basuotian/containerd/core/containers"
+	"github.com/basuotian/containerd/pkg/namespaces"
+	"github.com/basuotian/containerd/pkg/oci"
+	osinterface "github.com/basuotian/containerd/pkg/os"
 )
 
 func TestWithDevices(t *testing.T) {

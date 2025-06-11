@@ -21,7 +21,7 @@ package server
 import (
 	"fmt"
 
-	"github.com/basuotian/containerd/v2/pkg/rdt"
+	"github.com/basuotian/containerd/pkg/rdt"
 	"github.com/containerd/log"
 )
 

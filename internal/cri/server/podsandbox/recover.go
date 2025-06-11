@@ -26,13 +26,13 @@ import (
 	"github.com/containerd/log"
 	runtime "k8s.io/cri-api/pkg/apis/runtime/v1"
 
-	containerd "github.com/basuotian/containerd/v2/client"
-	sandbox2 "github.com/basuotian/containerd/v2/core/sandbox"
-	"github.com/basuotian/containerd/v2/internal/cri/config"
-	"github.com/basuotian/containerd/v2/internal/cri/server/podsandbox/types"
-	sandboxstore "github.com/basuotian/containerd/v2/internal/cri/store/sandbox"
-	ctrdutil "github.com/basuotian/containerd/v2/internal/cri/util"
-	"github.com/basuotian/containerd/v2/pkg/netns"
+	containerd "github.com/basuotian/containerd/client"
+	sandbox2 "github.com/basuotian/containerd/core/sandbox"
+	"github.com/basuotian/containerd/internal/cri/config"
+	"github.com/basuotian/containerd/internal/cri/server/podsandbox/types"
+	sandboxstore "github.com/basuotian/containerd/internal/cri/store/sandbox"
+	ctrdutil "github.com/basuotian/containerd/internal/cri/util"
+	"github.com/basuotian/containerd/pkg/netns"
 )
 
 // loadContainerTimeout is the default timeout for loading a container/sandbox.

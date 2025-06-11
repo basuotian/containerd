@@ -19,12 +19,12 @@ package sandbox
 import (
 	"sync"
 
-	containerd "github.com/basuotian/containerd/v2/client"
-	"github.com/basuotian/containerd/v2/internal/cri/store"
-	"github.com/basuotian/containerd/v2/internal/cri/store/label"
-	"github.com/basuotian/containerd/v2/internal/cri/store/stats"
-	"github.com/basuotian/containerd/v2/internal/truncindex"
-	"github.com/basuotian/containerd/v2/pkg/netns"
+	containerd "github.com/basuotian/containerd/client"
+	"github.com/basuotian/containerd/internal/cri/store"
+	"github.com/basuotian/containerd/internal/cri/store/label"
+	"github.com/basuotian/containerd/internal/cri/store/stats"
+	"github.com/basuotian/containerd/internal/truncindex"
+	"github.com/basuotian/containerd/pkg/netns"
 	"github.com/containerd/errdefs"
 )
 

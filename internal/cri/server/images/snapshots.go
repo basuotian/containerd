@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"time"
 
-	snapshot "github.com/basuotian/containerd/v2/core/snapshots"
-	snapshotstore "github.com/basuotian/containerd/v2/internal/cri/store/snapshot"
-	ctrdutil "github.com/basuotian/containerd/v2/internal/cri/util"
+	snapshot "github.com/basuotian/containerd/core/snapshots"
+	snapshotstore "github.com/basuotian/containerd/internal/cri/store/snapshot"
+	ctrdutil "github.com/basuotian/containerd/internal/cri/util"
 	"github.com/containerd/errdefs"
 	"github.com/containerd/log"
 )

@@ -34,11 +34,11 @@ import (
 
 	"github.com/containerd/errdefs"
 
-	"github.com/basuotian/containerd/v2/core/content"
-	"github.com/basuotian/containerd/v2/core/content/testsuite"
-	"github.com/basuotian/containerd/v2/internal/fsverity"
-	"github.com/basuotian/containerd/v2/internal/randutil"
-	"github.com/basuotian/containerd/v2/pkg/testutil"
+	"github.com/basuotian/containerd/core/content"
+	"github.com/basuotian/containerd/core/content/testsuite"
+	"github.com/basuotian/containerd/internal/fsverity"
+	"github.com/basuotian/containerd/internal/randutil"
+	"github.com/basuotian/containerd/pkg/testutil"
 
 	"github.com/opencontainers/go-digest"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"

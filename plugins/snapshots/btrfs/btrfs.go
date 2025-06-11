@@ -28,9 +28,9 @@ import (
 	"github.com/containerd/btrfs/v2"
 	"github.com/containerd/continuity/fs"
 
-	"github.com/basuotian/containerd/v2/core/mount"
-	"github.com/basuotian/containerd/v2/core/snapshots"
-	"github.com/basuotian/containerd/v2/core/snapshots/storage"
+	"github.com/basuotian/containerd/core/mount"
+	"github.com/basuotian/containerd/core/snapshots"
+	"github.com/basuotian/containerd/core/snapshots/storage"
 	"github.com/containerd/log"
 	"github.com/containerd/plugin"
 )

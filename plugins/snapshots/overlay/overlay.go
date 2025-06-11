@@ -26,11 +26,11 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/basuotian/containerd/v2/core/mount"
-	"github.com/basuotian/containerd/v2/core/snapshots"
-	"github.com/basuotian/containerd/v2/core/snapshots/storage"
-	"github.com/basuotian/containerd/v2/internal/userns"
-	"github.com/basuotian/containerd/v2/plugins/snapshots/overlay/overlayutils"
+	"github.com/basuotian/containerd/core/mount"
+	"github.com/basuotian/containerd/core/snapshots"
+	"github.com/basuotian/containerd/core/snapshots/storage"
+	"github.com/basuotian/containerd/internal/userns"
+	"github.com/basuotian/containerd/plugins/snapshots/overlay/overlayutils"
 	"github.com/containerd/continuity/fs"
 	"github.com/containerd/log"
 )

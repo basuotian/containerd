@@ -20,7 +20,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/basuotian/containerd/v2/pkg/reference"
+	"github.com/basuotian/containerd/pkg/reference"
 	"github.com/stretchr/testify/assert"
 )
 
